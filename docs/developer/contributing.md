@@ -40,8 +40,12 @@ Unsure where to begin? A great place to start is by looking for issues tagged wi
 **Prerequisites:**
 
 1.  **Node.js**:
-    - **Development**: Please use Node.js `~20.19.0`. This specific version is required due to an upstream development dependency issue. You can use a tool like [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions.
-    - **Production**: For running the CLI in a production environment, any version of Node.js `>=20` is acceptable.
+    - **Development**: Please use Node.js version `20.19.0` exactly. You can use a tool like [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions:
+      ```bash
+      nvm install 20.19.0
+      nvm use 20.19.0
+      ```
+    - **Production**: For running the CLI in a production environment, any Node.js version `>=20.0.0` is acceptable.
 2.  **Git**
 
 **Setup Steps:**
@@ -68,7 +72,7 @@ Unsure where to begin? A great place to start is by looking for issues tagged wi
 
 ### Enabling Sandboxing
 
-[Sandboxing](#sandboxing) is highly recommended and requires, at a minimum, setting `GEMINI_SANDBOX=true` in your `~/.env` and ensuring a sandboxing provider (e.g. `macOS Seatbelt`, `docker`, or `podman`) is available. See [Sandboxing](#sandboxing) for details.
+[Sandboxing](#sandboxing) is highly recommended and requires, at a minimum, setting `AGENTIC_SANDBOX=true` in your `~/.env` and ensuring a sandboxing provider (e.g. `macOS Seatbelt`, `docker`, or `podman`) is available. If migrating from older setups, `GEMINI_SANDBOX` is still recognized but deprecated. See [Sandboxing](#sandboxing) for details.
 
 To build both the `agentic-code` CLI utility and the sandbox container, run `build:all` from the root directory:
 
@@ -131,11 +135,11 @@ In the PR description, explain the "why" behind your changes and link to the rel
 
 ### Contribution Workflow
 
-1.  **Create a Branch**: Create a new branch from `main` with a descriptive name, following our branch naming convention (see `docs/agentic/WORKFLOW.md`).
+1.  **Create a Branch**: Create a new branch from `main` with a descriptive name, following our branch naming convention (see `docs/agentic/workflow.md`).
     ```bash
     git checkout -b feat/your-new-feature-name
     ```
-2.  **Make Your Changes**: Write your code, ensuring it follows the project's coding standards and the principles outlined in `docs/agentic/AGENTIC.md`.
+2.  **Make Your Changes**: Write your code, ensuring it follows the project's coding standards and the principles outlined in `docs/agentic/constitution.md`.
 3.  **Run Tests**: Before submitting your changes, make sure all tests pass.
     ```bash
     npm test
@@ -235,7 +239,7 @@ npm run lint
 * **Style**: We use Prettier and ESLint to enforce a consistent code style. Before committing, you can run `npm run format` and `npm run lint` to check and fix your code.
 * **Language**: The project is written in TypeScript. Please use strict typing and avoid `any` whenever possible.
 * **Documentation**: For new features, especially public APIs, please include TSDoc/JSDoc comments.
-* **Principles**: Please adhere to the principles outlined in `docs/agentic/AGENTIC.md` and the workflow guidelines in `docs/agentic/WORKFLOW.md`.
+* **Principles**: Please adhere to the principles outlined in `docs/agentic/constitution.md` and the workflow guidelines in `docs/agentic/workflow.md`.
 * **Imports**: Pay special attention to import paths. The project uses ESLint to enforce restrictions on relative imports between packages.
 
 ### Project Structure
@@ -269,7 +273,7 @@ To hit a breakpoint inside the sandbox container run:
 DEBUG=1 agentic-code
 ```
 
-**Note:** If you have `DEBUG=true` in a project's `.env` file, it won't affect agentic-code due to automatic exclusion. Use `.agentic-code/.env` files for agentic-code specific debug settings.
+**Note:** If you have `DEBUG=1` in a project's `.env` file, it won't affect agentic-code due to automatic exclusion. Use `.agentic-code/.env` files for agentic-code specific debug settings.
 
 ### React DevTools
 
@@ -306,19 +310,17 @@ On macOS, `agentic-code` uses Seatbelt (`sandbox-exec`) under a `permissive-open
 
 ### Container-based Sandboxing (All Platforms)
 
-For stronger container-based sandboxing on macOS or other platforms, you can set `GEMINI_SANDBOX=true|docker|podman|<command>` in your environment or `.env` file. The specified command (or if `true` then either `docker` or `podman`) must be installed on the host machine. Once enabled, `npm run build:all` will build a minimal container ("sandbox") image and `npm start` will launch inside a fresh instance of that container. The first build can take 20-30s (mostly due to downloading of the base image) but after that both build and start overhead should be minimal. Default builds (`npm run build`) will not rebuild the sandbox.
+For stronger container-based sandboxing on macOS or other platforms, you can set `AGENTIC_SANDBOX=true|docker|podman|<command>` in your environment or `.env` file. If migrating from older setups, `GEMINI_SANDBOX` is still recognized but deprecated. The specified command (or if `true` then either `docker` or `podman`) must be installed on the host machine. Once enabled, `npm run build:all` will build a minimal container ("sandbox") image and `npm start` will launch inside a fresh instance of that container. The first build can take 20-30s (mostly due to downloading of the base image) but after that both build and start overhead should be minimal. Default builds (`npm run build`) will not rebuild the sandbox.
 
 Container-based sandboxing mounts the project directory (and system temp directory) with read-write access and is started/stopped/removed automatically as you start/stop Agentic-code CLI. Files created within the sandbox should be automatically mapped to your user/group on host machine. You can easily specify additional mounts, ports, or environment variables by setting `SANDBOX_{MOUNTS,PORTS,ENV}` as needed. You can also fully customize the sandbox for your projects by creating the files `.agentic-code/sandbox.Dockerfile` and/or `.agentic-code/sandbox.bashrc` under your project settings directory (`.agentic-code`) and running `agentic-code` with `BUILD_SANDBOX=1` to trigger building of your custom sandbox.
 
 #### Proxied Networking
 
-All sandboxing methods, including macOS Seatbelt using `*-proxied` profiles, support restricting outbound network traffic through a custom proxy server that can be specified as `GEMINI_SANDBOX_PROXY_COMMAND=<command>`, where `<command>` must start a proxy server that listens on `:::8877` for relevant requests. See `docs/examples/proxy-script.md` for a minimal proxy that only allows `HTTPS` connections to `example.com:443` (e.g. `curl https://example.com`) and declines all other requests. The proxy is started and stopped automatically alongside the sandbox.
+All sandboxing methods, including macOS Seatbelt using `*-proxied` profiles, support restricting outbound network traffic through a custom proxy server that can be specified as `AGENTIC_SANDBOX_PROXY_COMMAND=<command>`, where `<command>` must start a proxy server that listens on `:::8877` for relevant requests. If migrating, `GEMINI_SANDBOX_PROXY_COMMAND` is recognized but deprecated. See `docs/examples/proxy-script.md` for a minimal proxy that only allows `HTTPS` connections to `example.com:443` (e.g. `curl https://example.com`) and declines all other requests. The proxy is started and stopped automatically alongside the sandbox.
 
 ## Forking
 
-If you are forking the repository you will be able to run the Build, Test and Integration test workflows. However in order to make the integration tests run you'll need to add a [GitHub Repository Secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) with a value of `GEMINI_API_KEY` and set that to a valid API key that you have available. Your key and secret are private to your repo; no one without access can see your key and you cannot see any secrets related to this repo.
-
-Additionally you will need to click on the `Actions` tab and enable workflows for your repository, you'll find it's the large blue button in the center of the screen.
+If you are forking the repository you will be able to run the Build, Test and Integration test workflows. However, to run the integration tests you'll need to add a GitHub Repository Secret named `AGENTIC_API_KEY` and set it to a valid API key you have available. If migrating from older setups, `GEMINI_API_KEY` may still be recognized but is deprecated.
 
 ## Manual Publish
 
