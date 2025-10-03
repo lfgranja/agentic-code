@@ -4,7 +4,7 @@ Welcome to the Agentic Code core documentation. This directory contains foundati
 
 ## Overview
 
-Agentic Code is an AI-powered coding agent that operates in the digital world, adapted from the Gemini CLI with optimizations for Qwen3-Coder models. This directory contains core documentation about the system's architecture, constitution, and workflow.
+Agentic Code is an AI-powered coding agent that operates in the digital world, adapted from the [Gemini CLI](https://github.com/google-gemini/gemini-cli) with optimizations for [Qwen3-Coder models](https://github.com/QwenLM/Qwen3-Coder). This directory contains core documentation about the system's architecture, constitution, and workflow.
 
 ## Available Documentation
 
