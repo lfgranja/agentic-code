@@ -64,15 +64,15 @@ None
 Rename and move all documentation files to their new locations according to the proposed structure.
 
 ## Tasks
-- [ ] Rename `docs/agentic/AGENTIC.md` to `docs/agentic/constitution.md`
-- [ ] Rename `docs/agentic/WORKFLOW.md` to `docs/agentic/workflow.md`
-- [ ] Move `docs/agentic/USER_GUIDE.md` to `docs/user/user-guide.md`
-- [ ] Move `docs/agentic/INSTALLATION_GUIDE.md` to `docs/user/installation.md`
-- [ ] Move `docs/agentic/TROUBLESHOOTING_GUIDE.md` to `docs/user/troubleshooting.md`
-- [ ] Move `docs/agentic/DEVELOPER_GUIDE.md` to `docs/developer/development-guide.md`
-- [ ] Move `docs/agentic/API_DOCUMENTATION.md` to `docs/developer/api-reference.md`
-- [ ] Move `docs/agentic/PLUGIN_DEVELOPMENT_GUIDE.md` to `docs/developer/plugin-development.md`
-- [ ] Move `CONTRIBUTING.md` to `docs/developer/contributing.md`
+- [x] Rename `docs/agentic/AGENTIC.md` to `docs/agentic/constitution.md`
+- [x] Rename `docs/agentic/WORKFLOW.md` to `docs/agentic/workflow.md`
+- [x] Move `docs/agentic/USER_GUIDE.md` to `docs/user/user-guide.md`
+- [x] Move `docs/agentic/INSTALLATION_GUIDE.md` to `docs/user/installation.md`
+- [x] Move `docs/agentic/TROUBLESHOOTING_GUIDE.md` to `docs/user/troubleshooting.md`
+- [x] Move `docs/agentic/DEVELOPER_GUIDE.md` to `docs/developer/development-guide.md`
+- [x] Move `docs/agentic/API_DOCUMENTATION.md` to `docs/developer/api-reference.md`
+- [x] Move `docs/agentic/PLUGIN_DEVELOPMENT_GUIDE.md` to `docs/developer/plugin-development.md`
+- [x] Move `CONTRIBUTING.md` to `docs/developer/contributing.md`
 
 ## Acceptance Criteria
 - All files are moved to their new locations

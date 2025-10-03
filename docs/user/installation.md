@@ -455,4 +455,4 @@ If all else fails, try a clean installation:
 
 3. Reinstall following the installation instructions
 
-This installation guide provides comprehensive instructions for setting up Agentic-code on various platforms. For more specific information, refer to the [User Guide](USER_GUIDE.md) or [API Documentation](API_DOCUMENTATION.md).
+This installation guide provides comprehensive instructions for setting up Agentic-code on various platforms. For more specific information, refer to the [User Guide](user-guide.md) or [API Documentation](api-reference.md).
