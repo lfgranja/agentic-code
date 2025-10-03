@@ -1,6 +1,8 @@
-# How to Contribute
+# Contributing to Agentic-code
 
-We would love to accept your patches and contributions to this project.
+First off, thank you for considering contributing to Agentic-code! We welcome any help, from reporting a bug to submitting a feature request or writing code. This project thrives on community contributions.
+
+This document provides guidelines to ensure a smooth and effective collaboration process.
 
 ## Before you begin
 
@@ -22,6 +24,59 @@ sign a new one.
 
 This project follows [Google's Open Source Community
 Guidelines](https://opensource.google/conduct/).
+
+## How Can I Contribute?
+
+* **Reporting Bugs**: If you find a bug, please open an issue and provide as much detail as possible, including steps to reproduce it.
+* **Suggesting Enhancements**: If you have an idea for a new feature or an improvement, open an issue to discuss it. This allows us to align on the proposal before any code is written.
+* **Pull Requests**: If you're ready to contribute code, this is the place to start.
+
+## Your First Code Contribution
+
+Unsure where to begin? A great place to start is by looking for issues tagged with `good first issue` or `help wanted`.
+
+### Setting Up Your Development Environment
+
+**Prerequisites:**
+
+1.  **Node.js**:
+    - **Development**: Please use Node.js `~20.19.0`. This specific version is required due to an upstream development dependency issue. You can use a tool like [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions.
+    - **Production**: For running the CLI in a production environment, any version of Node.js `>=20` is acceptable.
+2.  **Git**
+
+**Setup Steps:**
+
+1.  **Fork the repository**: Click the "Fork" button on the top right of the repository page.
+2.  **Clone your fork**:
+    ```bash
+    git clone https://github.com/YOUR_USERNAME/agentic-code.git
+    cd agentic-code
+    ```
+3.  **Install Dependencies**: We use `npm` for package management.
+    ```bash
+    npm install
+    ```
+4.  **Build the Project**:
+    ```bash
+    npm run build
+    ```
+5.  **Link for Local Development**: To use your local version of `agentic-code` globally, run:
+    ```bash
+    npm link
+    ```
+    Now, when you run `agentic-code` in your terminal, it will use your local development version.
+
+### Enabling Sandboxing
+
+[Sandboxing](#sandboxing) is highly recommended and requires, at a minimum, setting `GEMINI_SANDBOX=true` in your `~/.env` and ensuring a sandboxing provider (e.g. `macOS Seatbelt`, `docker`, or `podman`) is available. See [Sandboxing](#sandboxing) for details.
+
+To build both the `agentic-code` CLI utility and the sandbox container, run `build:all` from the root directory:
+
+```bash
+npm run build:all
+```
+
+To skip building the sandbox container, you can use `npm run build` instead.
 
 ## Contribution Process
 
@@ -74,69 +129,38 @@ Your PR should have a clear, descriptive title and a detailed description of the
 
 In the PR description, explain the "why" behind your changes and link to the relevant issue (e.g., `Fixes #123`).
 
-## Forking
+### Contribution Workflow
 
-If you are forking the repository you will be able to run the Build, Test and Integration test workflows. However in order to make the integration tests run you'll need to add a [GitHub Repository Secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) with a value of `GEMINI_API_KEY` and set that to a valid API key that you have available. Your key and secret are private to your repo; no one without access can see your key and you cannot see any secrets related to this repo.
+1.  **Create a Branch**: Create a new branch from `main` with a descriptive name, following our branch naming convention (see `docs/agentic/WORKFLOW.md`).
+    ```bash
+    git checkout -b feat/your-new-feature-name
+    ```
+2.  **Make Your Changes**: Write your code, ensuring it follows the project's coding standards and the principles outlined in `docs/agentic/AGENTIC.md`.
+3.  **Run Tests**: Before submitting your changes, make sure all tests pass.
+    ```bash
+    npm test
+    ```
+4.  **Commit Your Changes**: Follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. This is crucial for our automated release process.
+    ```bash
+    git commit -m "feat(provider): add support for NewLLM" -m "Detailed explanation of the changes."
+    ```
+5.  **Push to Your Fork**:
+    ```bash
+    git push origin feat/your-new-feature-name
+    ```
+6.  **Open a Pull Request**: Go to the original `agentic-code` repository and open a new Pull Request. Fill out the PR template with the required information.
 
-Additionally you will need to click on the `Actions` tab and enable workflows for your repository, you'll find it's the large blue button in the center of the screen.
-
-## Development Setup and Workflow
-
-This section guides contributors on how to build, modify, and understand the development setup of this project.
-
-### Setting Up the Development Environment
-
-**Prerequisites:**
-
-1.  **Node.js**:
-    - **Development:** Please use Node.js `~20.19.0`. This specific version is required due to an upstream development dependency issue. You can use a tool like [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions.
-    - **Production:** For running the CLI in a production environment, any version of Node.js `>=20` is acceptable.
-2.  **Git**
-
-### Build Process
-
-To clone the repository:
-
-```bash
-git clone https://github.com/google-gemini/gemini-cli.git # Or your fork's URL
-cd gemini-cli
-```
-
-To install dependencies defined in `package.json` as well as root dependencies:
-
-```bash
-npm install
-```
-
-To build the entire project (all packages):
-
-```bash
-npm run build
-```
-
-This command typically compiles TypeScript to JavaScript, bundles assets, and prepares the packages for execution. Refer to `scripts/build.js` and `package.json` scripts for more details on what happens during the build.
-
-### Enabling Sandboxing
-
-[Sandboxing](#sandboxing) is highly recommended and requires, at a minimum, setting `GEMINI_SANDBOX=true` in your `~/.env` and ensuring a sandboxing provider (e.g. `macOS Seatbelt`, `docker`, or `podman`) is available. See [Sandboxing](#sandboxing) for details.
-
-To build both the `gemini` CLI utility and the sandbox container, run `build:all` from the root directory:
-
-```bash
-npm run build:all
-```
-
-To skip building the sandbox container, you can use `npm run build` instead.
+## Development Workflow
 
 ### Running
 
-To start the Gemini CLI from the source code (after building), run the following command from the root directory:
+To start the Agentic-code CLI from the source code (after building), run the following command from the root directory:
 
 ```bash
 npm start
 ```
 
-If you'd like to run the source build outside of the gemini-cli folder you can utilize `npm link path/to/gemini-cli/packages/cli` (see: [docs](https://docs.npmjs.com/cli/v9/commands/npm-link)) or `alias gemini="node path/to/gemini-cli/packages/cli"` to run with `gemini`
+If you'd like to run the source build outside of the agentic-code folder you can utilize `npm link path/to/agentic-code/packages/cli` (see: [docs](https://docs.npmjs.com/cli/v9/commands/npm-link)) or `alias agentic-code="node path/to/agentic-code/packages/cli"` to run with `agentic-code`
 
 ### Running Tests
 
@@ -154,7 +178,7 @@ This will run tests located in the `packages/core` and `packages/cli` directorie
 
 #### Integration Tests
 
-The integration tests are designed to validate the end-to-end functionality of the Gemini CLI. They are not run as part of the default `npm run test` command.
+The integration tests are designed to validate the end-to-end functionality of the Agentic-code CLI. They are not run as part of the default `npm run test` command.
 
 To run the integration tests, use the following command:
 
@@ -206,21 +230,24 @@ To separately lint the code in this project, run the following command from the 
 npm run lint
 ```
 
-### Coding Conventions
+### Coding Standards
 
-- Please adhere to the coding style, patterns, and conventions used throughout the existing codebase.
-- Consult [QWEN.md](https://github.com/QwenLM/qwen-code/blob/main/QWEN.md) (typically found in the project root) for specific instructions related to AI-assisted development, including conventions for React, comments, and Git usage.
-- **Imports:** Pay special attention to import paths. The project uses ESLint to enforce restrictions on relative imports between packages.
+* **Style**: We use Prettier and ESLint to enforce a consistent code style. Before committing, you can run `npm run format` and `npm run lint` to check and fix your code.
+* **Language**: The project is written in TypeScript. Please use strict typing and avoid `any` whenever possible.
+* **Documentation**: For new features, especially public APIs, please include TSDoc/JSDoc comments.
+* **Principles**: Please adhere to the principles outlined in `docs/agentic/AGENTIC.md` and the workflow guidelines in `docs/agentic/WORKFLOW.md`.
+* **Imports**: Pay special attention to import paths. The project uses ESLint to enforce restrictions on relative imports between packages.
 
 ### Project Structure
 
 - `packages/`: Contains the individual sub-packages of the project.
   - `cli/`: The command-line interface.
-  - `core/`: The core backend logic for the Gemini CLI.
+  - `core/`: The core backend logic for the Agentic-code CLI.
 - `docs/`: Contains all project documentation.
+  - `agentic/`: Contains the project's constitution, workflow, and vision documents.
 - `scripts/`: Utility scripts for building, testing, and development tasks.
 
-For more detailed architecture, see `docs/architecture.md`.
+For more detailed architecture, see `docs/agentic/architecture.md`.
 
 ## Debugging
 
@@ -239,16 +266,16 @@ Alternatively, you can use the "Launch Program" configuration in VS Code if you 
 To hit a breakpoint inside the sandbox container run:
 
 ```bash
-DEBUG=1 gemini
+DEBUG=1 agentic-code
 ```
 
-**Note:** If you have `DEBUG=true` in a project's `.env` file, it won't affect gemini-cli due to automatic exclusion. Use `.gemini/.env` files for gemini-cli specific debug settings.
+**Note:** If you have `DEBUG=true` in a project's `.env` file, it won't affect agentic-code due to automatic exclusion. Use `.agentic-code/.env` files for agentic-code specific debug settings.
 
 ### React DevTools
 
 To debug the CLI's React-based UI, you can use React DevTools. Ink, the library used for the CLI's interface, is compatible with React DevTools version 4.x.
 
-1.  **Start the Gemini CLI in development mode:**
+1.  **Start the Agentic-code CLI in development mode:**
 
     ```bash
     DEV=true npm start
@@ -270,23 +297,28 @@ To debug the CLI's React-based UI, you can use React DevTools. Ink, the library 
     ```
 
     Your running CLI application should then connect to React DevTools.
-    ![](/docs/assets/connected_devtools.png)
 
 ## Sandboxing
 
 ### macOS Seatbelt
 
-On macOS, `qwen` uses Seatbelt (`sandbox-exec`) under a `permissive-open` profile (see `packages/cli/src/utils/sandbox-macos-permissive-open.sb`) that restricts writes to the project folder but otherwise allows all other operations and outbound network traffic ("open") by default. You can switch to a `restrictive-closed` profile (see `packages/cli/src/utils/sandbox-macos-restrictive-closed.sb`) that declines all operations and outbound network traffic ("closed") by default by setting `SEATBELT_PROFILE=restrictive-closed` in your environment or `.env` file. Available built-in profiles are `{permissive,restrictive}-{open,closed,proxied}` (see below for proxied networking). You can also switch to a custom profile `SEATBELT_PROFILE=<profile>` if you also create a file `.qwen/sandbox-macos-<profile>.sb` under your project settings directory `.qwen`.
+On macOS, `agentic-code` uses Seatbelt (`sandbox-exec`) under a `permissive-open` profile (see `packages/cli/src/utils/sandbox-macos-permissive-open.sb`) that restricts writes to the project folder but otherwise allows all other operations and outbound network traffic ("open") by default. You can switch to a `restrictive-closed` profile (see `packages/cli/src/utils/sandbox-macos-restrictive-closed.sb`) that declines all operations and outbound network traffic ("closed") by default by setting `SEATBELT_PROFILE=restrictive-closed` in your environment or `.env` file. Available built-in profiles are `{permissive,restrictive}-{open,closed,proxied}` (see below for proxied networking). You can also switch to a custom profile `SEATBELT_PROFILE=<profile>` if you also create a file `.agentic-code/sandbox-macos-<profile>.sb` under your project settings directory `.agentic-code`.
 
 ### Container-based Sandboxing (All Platforms)
 
 For stronger container-based sandboxing on macOS or other platforms, you can set `GEMINI_SANDBOX=true|docker|podman|<command>` in your environment or `.env` file. The specified command (or if `true` then either `docker` or `podman`) must be installed on the host machine. Once enabled, `npm run build:all` will build a minimal container ("sandbox") image and `npm start` will launch inside a fresh instance of that container. The first build can take 20-30s (mostly due to downloading of the base image) but after that both build and start overhead should be minimal. Default builds (`npm run build`) will not rebuild the sandbox.
 
-Container-based sandboxing mounts the project directory (and system temp directory) with read-write access and is started/stopped/removed automatically as you start/stop Gemini CLI. Files created within the sandbox should be automatically mapped to your user/group on host machine. You can easily specify additional mounts, ports, or environment variables by setting `SANDBOX_{MOUNTS,PORTS,ENV}` as needed. You can also fully customize the sandbox for your projects by creating the files `.qwen/sandbox.Dockerfile` and/or `.qwen/sandbox.bashrc` under your project settings directory (`.qwen`) and running `qwen` with `BUILD_SANDBOX=1` to trigger building of your custom sandbox.
+Container-based sandboxing mounts the project directory (and system temp directory) with read-write access and is started/stopped/removed automatically as you start/stop Agentic-code CLI. Files created within the sandbox should be automatically mapped to your user/group on host machine. You can easily specify additional mounts, ports, or environment variables by setting `SANDBOX_{MOUNTS,PORTS,ENV}` as needed. You can also fully customize the sandbox for your projects by creating the files `.agentic-code/sandbox.Dockerfile` and/or `.agentic-code/sandbox.bashrc` under your project settings directory (`.agentic-code`) and running `agentic-code` with `BUILD_SANDBOX=1` to trigger building of your custom sandbox.
 
 #### Proxied Networking
 
 All sandboxing methods, including macOS Seatbelt using `*-proxied` profiles, support restricting outbound network traffic through a custom proxy server that can be specified as `GEMINI_SANDBOX_PROXY_COMMAND=<command>`, where `<command>` must start a proxy server that listens on `:::8877` for relevant requests. See `docs/examples/proxy-script.md` for a minimal proxy that only allows `HTTPS` connections to `example.com:443` (e.g. `curl https://example.com`) and declines all other requests. The proxy is started and stopped automatically alongside the sandbox.
+
+## Forking
+
+If you are forking the repository you will be able to run the Build, Test and Integration test workflows. However in order to make the integration tests run you'll need to add a [GitHub Repository Secret](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions#creating-secrets-for-a-repository) with a value of `GEMINI_API_KEY` and set that to a valid API key that you have available. Your key and secret are private to your repo; no one without access can see your key and you cannot see any secrets related to this repo.
+
+Additionally you will need to click on the `Actions` tab and enable workflows for your repository, you'll find it's the large blue button in the center of the screen.
 
 ## Manual Publish
 
@@ -299,3 +331,5 @@ npm run auth
 npm run prerelease:dev
 npm publish --workspaces
 ```
+
+Thank you again for your interest in contributing!
