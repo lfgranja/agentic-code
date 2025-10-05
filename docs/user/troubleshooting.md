@@ -716,4 +716,4 @@ When reporting issues, include:
    - Include relevant log entries
    - Use debug mode for detailed logs
 
-This troubleshooting guide provides solutions for common issues encountered when using Agentic-code. For more specific information, refer to the [User Guide](user-guide.md) or [API Documentation](api-reference.md).
+This troubleshooting guide provides solutions for common issues encountered when using Agentic-code. For more specific information, refer to the [User Guide](user-guide.md) or [API Documentation](../developer/api-reference.md).
