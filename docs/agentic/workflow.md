@@ -62,7 +62,7 @@ This document details the workflows and technical procedures that `agentic-code`
 ## Section 4: Documentation
 
 1.  **`README.md` Updates**: If a new user-visible feature is added (e.g., a new command), a brief description should be added to the features section of the main `README.md`.
-2.  **Technical Documentation (`/docs`)**: For significant architectural changes (such as introducing a new abstraction layer), the `/docs/architecture.md` document should be updated.
+2.  **Technical Documentation (`/docs`)**: For significant architectural changes (such as introducing a new abstraction layer), the `/docs/agentic/architecture.md` document should be updated.
 3.  **Code Comments**: Use comments to explain complex parts, non-obvious design decisions, or specific algorithms. Do not comment what the code already clearly states.
 4.  **API Documentation**: For public APIs, generate comprehensive documentation including examples, parameters, return values, and error conditions.
 
