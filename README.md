@@ -11,7 +11,7 @@
 
 **AI-powered command-line workflow tool for developers**
 
-[Installation](#installation) • [Quick Start](#quick-start) • [Features](#key-features) • [Documentation](./docs/) • [Contributing](/docs/developer/contributing.md)
+[Installation](#installation) • [Quick Start](#quick-start) • [Features](#key-features) • [Documentation](./docs/) • [Contributing](./docs/developer/contributing.md)
 
 </div>
 
