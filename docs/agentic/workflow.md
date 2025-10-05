@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This document details the workflows and technical procedures that `agentic-code` must follow. It serves as a practical complement to the [Constitution](./constitution.md), translating its principles into actionable rules for common software development tasks. Adherence to these workflows is mandatory to ensure consistency and quality throughout the codebase.
+This document details the workflows and technical procedures that `agentic-code` must follow. It serves as a practical complement to the [Constitution](/docs/agentic/constitution.md), translating its principles into actionable rules for common software development tasks. Adherence to these workflows is mandatory to ensure consistency and quality throughout the codebase.
 
 ---
 
