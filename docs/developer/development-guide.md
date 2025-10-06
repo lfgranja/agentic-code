@@ -532,7 +532,7 @@ logger.error('Error message');
 
 ### Before Contributing
 
-1. Read the [Contributing Guidelines](../../CONTRIBUTING.md)
+1. Read the [Contributing Guidelines](./contributing.md)
 2. Read the Project Constitution (Coming soon) <!-- TODO: Create AGENTIC.md -->
 3. Read the Workflow Guidelines (Coming soon) <!-- TODO: Create WORKFLOW.md -->
 4. Set up your development environment
