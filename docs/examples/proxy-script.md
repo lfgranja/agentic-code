@@ -79,3 +79,10 @@ server.listen(PROXY_PORT, () => {
   );
 });
 ```
+
+## Related Documentation
+
+- [Sandboxing](../../developer/contributing.md#sandboxing) - Detailed information about sandboxing in Agentic Code
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [Configuration Guide](../cli/configuration.md) - Detailed configuration information
+- [Security Documentation](../security/README.md) - Information about security features and best practices

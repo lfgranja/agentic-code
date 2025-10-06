@@ -489,3 +489,12 @@ Always follow these standards:
 - **Access Control**: Project and user-level separation provides appropriate boundaries
 - **Sensitive Information**: Avoid including secrets or credentials in agent configurations
 - **Production Environments**: Consider separate agents for production vs development environments
+
+## Related Documentation
+
+- [CLI Commands](./cli/commands.md) - List and explanation of all available CLI commands including the `/agents` command
+- [CLI Configuration](./cli/configuration.md) - Guide to configuring the CLI for different use cases
+- [User Guide](./user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Developer Guide](./developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](./developer/api-reference.md) - Detailed API documentation
+- [Tools API](./core/tools-api.md) - Information on how tools are defined, registered, and used by the core

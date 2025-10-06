@@ -25,3 +25,7 @@ If you're new to Agentic Code, we recommend starting with the [Constitution](./c
 - For end-user documentation, see the [User Documentation](../user/README.md)
 - For development guidelines, see the [Developer Documentation](../developer/README.md)
 - For CLI-specific documentation, see the [CLI Documentation](../cli/README.md)
+- For detailed architecture information, see the [Architecture Document](./architecture.md)
+- For governance principles, see the [Constitution](./constitution.md)
+- For implementation guidelines, see the [Workflow](./workflow.md)
+- For project vision, see the [Vision](./vision.md)

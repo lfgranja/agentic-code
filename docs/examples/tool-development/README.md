@@ -14,10 +14,13 @@ This directory will contain various examples demonstrating tool development tech
 
 To develop tools for Agentic Code, start by reviewing the [Tools API](../../core/tools-api.md) documentation in the core documentation. This will provide you with the fundamental knowledge needed to create effective and secure tools.
 
-## Next Steps
+## Related Documentation
 
 - For more examples, see the [Examples Directory](../README.md)
 - For core concepts and architecture, see the [Agentic Documentation](../../agentic/README.md)
 - For development guidelines, see the [Developer Documentation](../../developer/README.md)
 - For more information about the tools API, see the [Tools API](../../core/tools-api.md) documentation
 - For more information about tools in general, see the [Tools Documentation](../../tools/README.md)
+- [Developer Guide](../../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [Plugin Development Guide](../../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [API Reference](../../developer/api-reference.md) - Detailed API documentation

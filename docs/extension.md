@@ -98,3 +98,14 @@ Qwen Code extensions allow variable substitution in `qwen-extension.json`. This 
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `${extensionPath}`         | The fully-qualified path of the extension in the user's filesystem e.g., '/Users/username/.qwen/extensions/example-extension'. This will not unwrap symlinks. |
 | `${/} or ${pathSeparator}` | The path separator (differs per OS).                                                                                                                          |
+
+## Related Documentation
+
+- [CLI Configuration](./cli/configuration.md) - Guide to configuring the CLI for different use cases
+- [CLI Commands](./cli/commands.md) - List and explanation of all available CLI commands
+- [CLI Index](./cli/index.md) - Central index for CLI documentation
+- [User Guide](./user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](./user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](./user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](./developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](./developer/api-reference.md) - Detailed API documentation

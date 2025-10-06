@@ -299,6 +299,8 @@ Search for information online:
 
 ## Troubleshooting
 
+For comprehensive troubleshooting information, see the [Troubleshooting Guide](./troubleshooting.md).
+
 ### Common Issues
 
 #### Authentication Problems
@@ -316,6 +318,10 @@ If you're having trouble with authentication:
    ```
 
 3. Check your API keys or credentials
+
+For detailed authentication setup guides, see:
+- [Installation Guide](./installation.md) - Complete installation and setup instructions
+- [Developer Guide](../developer/development-guide.md) - Development environment setup
 
 #### Connection Issues
 
@@ -341,6 +347,10 @@ If tools are failing to execute:
 
 3. Check file permissions and paths
 
+For more information about tools:
+- [Tools API Documentation](../core/tools-api.md) - Detailed information about tools
+- [Developer Guide](../developer/development-guide.md) - Guide to creating new tools
+
 #### Performance Issues
 
 If Agentic-code is running slowly:
@@ -365,6 +375,9 @@ If Agentic-code is running slowly:
 - Report issues on GitHub:
   https://github.com/YOUR_USERNAME/agentic-code/issues
 
+- For developer questions, see the [Developer Documentation](../developer/README.md)
+- For core concepts, see the [Agentic Documentation](../agentic/README.md)
+
 ### Debug Mode
 
 Enable debug mode for troubleshooting:
@@ -373,3 +386,10 @@ DEBUG=1 agentic-code
 ```
 
 This will provide detailed logging information that can help identify issues.
+
+## Next Steps
+
+- For installation and configuration details, see the [Installation Guide](./installation.md)
+- For developer documentation, see the [Developer Documentation](../developer/README.md)
+- For core concepts, see the [Agentic Documentation](../agentic/README.md)
+- For troubleshooting solutions, see the [Troubleshooting Guide](./troubleshooting.md)

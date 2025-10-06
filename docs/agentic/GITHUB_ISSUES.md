@@ -236,9 +236,9 @@ Add consistent navigation menus to all documentation files to improve user exper
 Add cross-references between related documents to help users find relevant information.
 
 ## Tasks
-- [ ] Add cross-references in user documentation to developer documentation
-- [ ] Add cross-references in developer documentation to user documentation
-- [ ] Add cross-references between core project documents
+- [x] Add cross-references in user documentation to developer documentation
+- [x] Add cross-references in developer documentation to user documentation
+- [x] Add cross-references between core project documents
 - [ ] Add cross-references from API documentation to implementation guides
 - [ ] Add cross-references from guides to relevant examples
 

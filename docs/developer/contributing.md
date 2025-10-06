@@ -334,4 +334,15 @@ npm run prerelease:dev
 npm publish --workspaces
 ```
 
+## Related Documentation
+
 Thank you again for your interest in contributing!
+
+- [Developer Guide](./development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](./api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](./plugin-development.md) - Guide for creating and maintaining plugins
+- [Code of Conduct](https://opensource.google/conduct/) - Community guidelines and conduct expectations
+- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation

@@ -17,9 +17,12 @@ The examples directory is organized by categories to help users understand diffe
 
 New users should start with the [Basic Usage](./basic-usage/README.md) examples to understand how to effectively interact with Agentic Code. Developers looking to extend the system should explore the development-focused examples in their respective areas.
 
-## Next Steps
+## Related Documentation
 
 - For core concepts and architecture, see the [Agentic Documentation](../agentic/README.md)
 - For end-user documentation, see the [User Documentation](../user/README.md)
 - For development guidelines, see the [Developer Documentation](../developer/README.md)
 - For CLI-specific documentation, see the [CLI Documentation](../cli/README.md)
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [API Reference](../developer/api-reference.md) - Detailed API documentation

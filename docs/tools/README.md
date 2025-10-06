@@ -22,9 +22,15 @@ Agentic Code provides a variety of tools that can be used to perform different t
 
 Users new to Agentic Code tools should start with the [Index](./index.md) to understand the available tools and their purposes. The [File System](./file-system.md) and [Shell](./shell.md) tools are fundamental and frequently used, so they're good starting points for understanding tool operations.
 
-## Next Steps
+## Related Documentation
 
 - For core concepts and architecture, see the [Agentic Documentation](../agentic/README.md)
 - For end-user documentation, see the [User Documentation](../user/README.md)
 - For development guidelines, see the [Developer Documentation](../developer/README.md)
 - For CLI-specific documentation, see the [CLI Documentation](../cli/README.md)
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Core Tools API](../core/tools-api.md) - Information on how tools are defined, registered, and used by the core
