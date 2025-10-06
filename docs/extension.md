@@ -97,7 +97,7 @@ Qwen Code extensions allow variable substitution in `qwen-extension.json`. This 
 | variable                   | description                                                                                                                                                   |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `${extensionPath}`         | The fully-qualified path of the extension in the user's filesystem e.g., '/Users/username/.qwen/extensions/example-extension'. This will not unwrap symlinks. |
-| `${/} or ${pathSeparator}` | The path separator (differs per OS).                                                                                                                          |
+| `${pathSeparator}`         | The path separator (differs per OS).                                                                                                                          |
 
 ## Related Documentation
 
