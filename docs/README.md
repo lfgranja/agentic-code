@@ -41,7 +41,7 @@ Practical examples demonstrating various use cases and development patterns for 
 
 - [Architecture Overview](./agentic/architecture.md)
 - [Issue and PR Automation](./agentic/issue-and-pr-automation.md) <!-- TODO: Ensure page exists and index references it -->
-- [Integration Tests](./agentic/integration-tests.md) <!-- TODO: Create this page or update link -->
+- Integration Tests (see Developer Documentation; page pending)
 - [Subagents](./agentic/subagents.md) <!-- TODO: Create this page or update link -->
 - [Telemetry](./agentic/telemetry.md)
 - [Troubleshooting](./user/troubleshooting.md)
