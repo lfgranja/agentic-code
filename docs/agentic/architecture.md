@@ -235,10 +235,10 @@ The architecture is built to be extensible:
 - **New Services**: Modular addition of new services
 - **New UI Components**: React-based UI allows for easy extension
 
-## Related Documentation
-
-This architecture ensures that Agentic-code remains flexible, extensible, and maintainable while providing a robust foundation for AI-assisted software development.
-
+    This architecture ensures that Agentic-code remains flexible, extensible, and maintainable while providing a robust foundation for AI-assisted software development.
+    
+    ## Related Documentation
+    
 - [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
 - [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
 - [Vision](./vision.md) - Long-term vision and goals for Agentic Code
