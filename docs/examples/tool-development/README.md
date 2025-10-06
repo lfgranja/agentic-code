@@ -16,4 +16,8 @@ To develop tools for Agentic Code, start by reviewing the [Tools API](../../core
 
 ## Next Steps
 
-- Return to the [main documentation index](../../README.md) for an overview of all sections.
+- For more examples, see the [Examples Directory](../README.md)
+- For core concepts and architecture, see the [Agentic Documentation](../../agentic/README.md)
+- For development guidelines, see the [Developer Documentation](../../developer/README.md)
+- For more information about the tools API, see the [Tools API](../../core/tools-api.md) documentation
+- For more information about tools in general, see the [Tools Documentation](../../tools/README.md)

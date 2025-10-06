@@ -32,9 +32,11 @@ This documentation is organized into the following sections:
   - **[Web Search Tool](./tools/web-search.md):** Documentation for the `web_search` tool.
   - **[Memory Tool](./tools/memory.md):** Documentation for the `save_memory` tool.
 - **[Subagents](./subagents.md):** Specialized AI assistants for focused tasks with comprehensive management, configuration, and usage guidance.
-- **[Contributing & Development Guide](./developer/contributing.md):** Information for contributors and developers, including setup, building, testing, and coding conventions.
+- **[Contributing](./developer/contributing.md):** Guidelines for contributors, including setup and coding conventions.
+- **[Development Guide](./developer/development-guide.md):** Detailed information for developers, including building, testing, and project structure.
+- **[API Reference](./developer/api-reference.md):** Comprehensive reference for public APIs.
 - **[NPM](./npm.md):** Details on how the project's packages are structured
-- **[Troubleshooting Guide](./troubleshooting.md):** Find solutions to common problems and FAQs.
+- **[Troubleshooting Guide](./user/troubleshooting.md):** Find solutions to common problems and FAQs.
 - **[Terms of Service and Privacy Notice](./tos-privacy.md):** Information on the terms of service and privacy notices applicable to your use of Qwen Code.
 
 We hope this documentation helps you make the most of Qwen Code!

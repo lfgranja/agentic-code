@@ -9,20 +9,20 @@ This document outlines a comprehensive plan for implementing and integrating all
 ### Completed Documentation
 
 1. **Core Project Documents**
-   - `docs/agentic/AGENTIC.md` - Project constitution
-   - `docs/agentic/WORKFLOW.md` - Workflow guidelines
+   - `docs/agentic/constitution.md` - Project constitution
+   - `docs/agentic/workflow.md` - Workflow guidelines
    - `docs/agentic/architecture.md` - Architecture overview
-   - `CONTRIBUTING.md` - Contributing guidelines (consolidated)
+   - `docs/developer/contributing.md` - Contributing guidelines (consolidated)
 
 2. **User Documentation**
-   - `docs/agentic/USER_GUIDE.md` - End-user guide
-   - `docs/agentic/INSTALLATION_GUIDE.md` - Installation instructions
-   - `docs/agentic/TROUBLESHOOTING_GUIDE.md` - Troubleshooting guide
+   - `docs/user/user-guide.md` - End-user guide
+   - `docs/user/installation.md` - Installation instructions
+   - `docs/user/troubleshooting.md` - Troubleshooting guide
 
 3. **Developer Documentation**
-   - `docs/agentic/DEVELOPER_GUIDE.md` - Developer guide
-   - `docs/agentic/API_DOCUMENTATION.md` - API reference
-   - `docs/agentic/PLUGIN_DEVELOPMENT_GUIDE.md` - Plugin development guide
+   - `docs/developer/development-guide.md` - Developer guide
+   - `docs/developer/api-reference.md` - API reference
+   - `docs/developer/plugin-development.md` - Plugin development guide
 
 ## Implementation Plan
 
