@@ -153,16 +153,16 @@ Create README.md files for each documentation directory to provide navigation an
 Update all internal links and references in documentation files to reflect the new file locations and names.
 
 ## Tasks
-- [ ] Update links in `docs/agentic/constitution.md`
-- [ ] Update links in `docs/agentic/workflow.md`
-- [ ] Update links in `docs/agentic/architecture.md`
-- [ ] Update links in `docs/user/user-guide.md`
-- [ ] Update links in `docs/user/installation.md`
-- [ ] Update links in `docs/user/troubleshooting.md`
-- [ ] Update links in `docs/developer/development-guide.md`
-- [ ] Update links in `docs/developer/api-reference.md`
-- [ ] Update links in `docs/developer/plugin-development.md`
-- [ ] Update links in `docs/developer/contributing.md`
+- [x] Update links in `docs/agentic/constitution.md`
+- [x] Update links in `docs/agentic/workflow.md`
+- [x] Update links in `docs/agentic/architecture.md`
+- [x] Update links in `docs/user/user-guide.md`
+- [x] Update links in `docs/user/installation.md`
+- [x] Update links in `docs/user/troubleshooting.md`
+- [x] Update links in `docs/developer/development-guide.md`
+- [x] Update links in `docs/developer/api-reference.md`
+- [x] Update links in `docs/developer/plugin-development.md`
+- [x] Update links in `docs/developer/contributing.md`
 
 ## Acceptance Criteria
 - All internal links are updated to point to correct file locations
