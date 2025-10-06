@@ -726,4 +726,4 @@ export default class MyPlugin implements Plugin {
 4. **Provide metrics**: Help with monitoring and debugging
 5. **Be stateless or manage state carefully**: Avoid unexpected behavior
 
-This plugin development guide provides comprehensive information for extending Agentic-code with custom functionality. For more specific information, refer to the [API Documentation](API_DOCUMENTATION.md) or [Developer Guide](DEVELOPER_GUIDE.md).
+This plugin development guide provides comprehensive information for extending Agentic-code with custom functionality. For more specific information, refer to the API Documentation (Coming soon) <!-- TODO: Create API_DOCUMENTATION.md --> or Developer Guide (Coming soon) <!-- TODO: Create DEVELOPER_GUIDE.md -->.
