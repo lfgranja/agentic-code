@@ -101,13 +101,15 @@ packages/
     │   └── utils/          # Utility functions
     └── package.json
 docs/
-└── agentic/               # Documentation
-    ├── AGENTIC.md          # Project constitution
-    ├── WORKFLOW.md         # Workflow guidelines
-    ├── architecture.md     # Architecture overview
-    ├── API_DOCUMENTATION.md # API documentation
-    ├── USER_GUIDE.md       # User guide
-    └── DEVELOPER_GUIDE.md  # Developer guide (this file)
+├── agentic/               # Core concepts
+│   ├── constitution.md    # Project constitution
+│   ├── workflow.md        # Workflow guidelines
+│   └── architecture.md    # Architecture overview
+├── developer/
+│   ├── api-reference.md   # API documentation
+│   └── development-guide.md  # Developer guide (this file)
+└── user/
+    └── user-guide.md      # User guide
 ```
 
 ### Key Directories
@@ -532,9 +534,9 @@ logger.error('Error message');
 
 ### Before Contributing
 
-1. Read the [Contributing Guidelines](../../CONTRIBUTING.md)
-2. Read the [Project Constitution](AGENTIC.md)
-3. Read the [Workflow Guidelines](WORKFLOW.md)
+1. Read the [Contributing Guidelines](./contributing.md)
+2. Read the [Project Constitution](../agentic/constitution.md)
+3. Read the [Workflow Guidelines](../agentic/workflow.md)
 4. Set up your development environment
 
 ### Making Changes
