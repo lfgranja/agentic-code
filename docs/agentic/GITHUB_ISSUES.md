@@ -239,14 +239,14 @@ Add cross-references between related documents to help users find relevant infor
 - [x] Add cross-references in user documentation to developer documentation
 - [x] Add cross-references in developer documentation to user documentation
 - [x] Add cross-references between core project documents
-- [ ] Add cross-references from API documentation to implementation guides
-- [ ] Add cross-references from guides to relevant examples
+- [x] Add cross-references from API documentation to implementation guides
+- [x] Add cross-references from guides to relevant examples
 
 ## Acceptance Criteria
-- All cross-references are accurate and helpful
-- Cross-references are placed in logical locations within documents
-- Cross-references use descriptive link text
-- No circular references exist
+- [x] All cross-references are accurate and helpful
+- [x] Cross-references are placed in logical locations within documents
+- [x] Cross-references use descriptive link text
+- [x] No circular references exist
 
 ## Dependencies
 - #5 Add navigation menus to documentation files
