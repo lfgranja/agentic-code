@@ -11,7 +11,7 @@ Agentic Code provides a powerful command-line interface for interacting with the
 - [Commands](./commands.md) - List and explanation of all available CLI commands
 - [Configuration](./configuration.md) - Guide to configuring the CLI for different use cases
 - [Authentication](./authentication.md) - How to set up and manage authentication with various providers
-- [OpenAI Authentication](./openai-auth.md) - Specific guide for OpenAI authentication setup
+- OpenAI Authentication (Coming soon) <!-- TODO: Create ./openai-auth.md -->
 - [Token Caching](./token-caching.md) - Information about token caching mechanisms
 - [Themes](./themes.md) - Customizing the CLI appearance with themes
 - [Tutorials](./tutorials.md) - Step-by-step tutorials for common CLI tasks

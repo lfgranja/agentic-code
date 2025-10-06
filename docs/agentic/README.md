@@ -14,7 +14,7 @@ Agentic Code is an AI-powered coding agent that operates in the digital world, a
 - [Vision](./vision.md) - Long-term vision and goals for Agentic Code
 - [Creating GitHub Issues](./CREATING_GITHUB_ISSUES.md) - Guidelines for issue creation
 - [GitHub Issues](./GITHUB_ISSUES.md) - Understanding GitHub issue management in Agentic Code
-- [Documentation Implementation Plan](./DOCUMENTATION_IMPLEMENTATION_PLAN.md) - Planning document for documentation efforts
+- Documentation Implementation Plan (Coming soon) <!-- TODO: Create ./DOCUMENTATION_IMPLEMENTATION_PLAN.md -->
 
 ## Getting Started
 
