@@ -40,13 +40,13 @@ Practical examples demonstrating various use cases and development patterns for 
 ## Additional Resources
 
 - [Architecture Overview](./agentic/architecture.md)
-- [Issue and PR Automation](./agentic/issue-and-pr-automation.md)
-- [Integration Tests](./agentic/integration-tests.md)
-- [Subagents](./agentic/subagents.md)
+- [Issue and PR Automation](./agentic/issue-and-pr-automation.md) <!-- TODO: Ensure page exists and index references it -->
+- [Integration Tests](./agentic/integration-tests.md) <!-- TODO: Create this page or update link -->
+- [Subagents](./agentic/subagents.md) <!-- TODO: Create this page or update link -->
 - [Telemetry](./agentic/telemetry.md)
 - [Troubleshooting](./user/troubleshooting.md)
-- [Extension Development](./developer/extension.md)
-- [Sandbox Environment](./agentic/sandbox.md)
+- [Plugin Development](./developer/plugin-development.md)
+- [Sandbox Environment](./agentic/sandbox.md) <!-- TODO: Ensure page exists and index references it -->
 
 ## Contributing
 
