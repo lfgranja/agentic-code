@@ -16,7 +16,4 @@ To develop plugins for Agentic Code, start by reviewing the [Plugin Development]
 
 ## Next Steps
 
-- For more examples, see the [Examples Directory](../README.md)
-- For core concepts and architecture, see the [Agentic Documentation](../../agentic/README.md)
-- For development guidelines, see the [Developer Documentation](../../developer/README.md)
-- For more information about plugin development, see the [Plugin Development Guide](../../developer/plugin-development.md)
+- Return to the [main documentation index](../../README.md) for an overview of all sections.

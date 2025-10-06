@@ -19,6 +19,4 @@ Developers new to the project should start with the [Contributing](./contributin
 
 ## Next Steps
 
-- For core concepts and architecture, see the [Agentic Documentation](../agentic/README.md)
-- For end-user documentation, see the [User Documentation](../user/README.md)
-- For CLI-specific documentation, see the [CLI Documentation](../cli/README.md)
+- Return to the [main documentation index](../README.md) for an overview of all sections.

@@ -18,7 +18,4 @@ Developers looking to understand the internal architecture should start with the
 
 ## Next Steps
 
-- For core concepts and architecture, see the [Agentic Documentation](../agentic/README.md)
-- For end-user documentation, see the [User Documentation](../user/README.md)
-- For development guidelines, see the [Developer Documentation](../developer/README.md)
-- For CLI-specific documentation, see the [CLI Documentation](../cli/README.md)
+- Return to the [main documentation index](../README.md) for an overview of all sections.

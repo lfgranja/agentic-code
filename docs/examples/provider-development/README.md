@@ -16,7 +16,4 @@ To develop providers for Agentic Code, you should understand the provider archit
 
 ## Next Steps
 
-- For more examples, see the [Examples Directory](../README.md)
-- For core concepts and architecture, see the [Agentic Documentation](../../agentic/README.md)
-- For development guidelines, see the [Developer Documentation](../../developer/README.md)
-- For more information about development practices, see the [Development Guide](../../developer/development-guide.md)
+- Return to the [main documentation index](../../README.md) for an overview of all sections.

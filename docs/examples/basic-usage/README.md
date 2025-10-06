@@ -16,7 +16,4 @@ Since this directory is still being populated, we recommend starting with the co
 
 ## Next Steps
 
-- For more examples, see the [Examples Directory](../README.md)
-- For core concepts and architecture, see the [Agentic Documentation](../../agentic/README.md)
-- For end-user documentation, see the [User Documentation](../../user/README.md)
-- For development guidelines, see the [Developer Documentation](../../developer/README.md)
+- Return to the [main documentation index](../../README.md) for an overview of all sections.

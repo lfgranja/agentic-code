@@ -24,6 +24,4 @@ New CLI users should start with the [Commands](./commands.md) documentation to u
 
 ## Next Steps
 
-- For core concepts and architecture, see the [Agentic Documentation](../agentic/README.md)
-- For end-user documentation, see the [User Documentation](../user/README.md)
-- For development guidelines, see the [Developer Documentation](../developer/README.md)
+- Return to the [main documentation index](../README.md) for an overview of all sections.
