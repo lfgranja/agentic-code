@@ -373,7 +373,7 @@ If Agentic-code is running slowly:
   ```
 
 - Report issues on GitHub:
-  https://github.com/YOUR_USERNAME/agentic-code/issues
+  https://github.com/agentic-code/agentic-code/issues
 
 - For developer questions, see the [Developer Documentation](../developer/README.md)
 - For core concepts, see the [Agentic Documentation](../agentic/README.md)
