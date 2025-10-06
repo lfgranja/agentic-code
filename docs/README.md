@@ -39,7 +39,7 @@ Practical examples demonstrating various use cases and development patterns for 
 
 ## Additional Resources
 
-- Architecture Overview (./agentic/architecture.md)
+- [Architecture Overview](./agentic/architecture.md)
 - Issue and PR Automation — Coming soon (planned: ./agentic/issue-and-pr-automation.md)
 - Integration Tests — See Developer Documentation (page pending)
 - Subagents — Coming soon (planned: ./agentic/subagents.md)
