@@ -23,7 +23,7 @@
 ## Action Items Required
 - [ ] Close issues #1, #2, #3, and #4 on GitHub as they have been completed
 - [ ] Update the status of Issue #5 on GitHub as it's completed
-- [ ] Update the status of Issue #6 on GitHub as it's completed
+- [ ] Update the status of Issue #6 on GitHub as it's completed with PR #34 created
 - [ ] Add closing comments referencing the commits that implemented each issue
 
 ## Informações Importantes Salvas
@@ -35,6 +35,7 @@
 - **Branch**: feat/add-cross-references-issue6
 - **Status**: Limpo e sincronizado
 - **Último commit**: Atualização do checklist para refletir o progresso do projeto
+- **PR Criado**: PR #34 - feat(docs): add cross-references between related documents (Issue #6)
 
 ## Resumo das Alterações
 
