@@ -51,3 +51,5 @@ gha-creds-*.json
 QWEN.md
 *.md~
 SESSION_SUMMARY.md
+PROJECT_CONTEXT.md
+CHECKLIST.md
