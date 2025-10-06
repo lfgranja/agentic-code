@@ -85,4 +85,4 @@ server.listen(PROXY_PORT, () => {
 - [Sandboxing](../../developer/contributing.md#sandboxing) - Detailed information about sandboxing in Agentic Code
 - [Developer Guide](../../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
 - [Configuration Guide](../../cli/configuration.md) - Detailed configuration information
-- [Troubleshooting Guide](../../user/troubleshooting.md) - Operational guidance and safety considerations
+- [Troubleshooting Guide](../../user/troubleshooting.md) - General troubleshooting for using Agentic Code
