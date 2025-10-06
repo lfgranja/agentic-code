@@ -411,6 +411,24 @@ If you encounter issues, check the [troubleshooting guide](docs/troubleshooting.
 
 This project is based on [Google Gemini CLI](https://github.com/google-gemini/gemini-cli). We acknowledge and appreciate the excellent work of the Gemini CLI team. Our main contribution focuses on parser-level adaptations to better support Qwen-Coder models.
 
+## Documentation Project Status
+
+Significant improvements have been made to the documentation structure and content. Here's the current status of the documentation reorganization effort:
+
+### Completed Tasks
+- [x] **Issue #1**: Create new documentation directory structure
+- [x] **Issue #2**: Rename and move documentation files to new structure
+- [x] **Issue #3**: Create README files for documentation directories
+- [x] **Issue #4**: Update internal links and references to reflect new file locations
+- [x] **Issue #5**: Add navigation menus to documentation files (in progress)
+
+### Upcoming Tasks
+- [ ] **Issue #6**: Add cross-references between related documents
+- [ ] **Issue #7**: Create consistent footer with links to other documentation
+- [ ] Continue with additional documentation enhancement issues
+
+For full details on the documentation improvement project, see [CHECKLIST.md](./CHECKLIST.md) and [docs/agentic/GITHUB_ISSUES.md](./docs/agentic/GITHUB_ISSUES.md).
+
 ## License
 
 [LICENSE](./LICENSE)
