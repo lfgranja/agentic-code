@@ -43,7 +43,7 @@ Practical examples demonstrating various use cases and development patterns for 
 - Issue and PR Automation — Coming soon (planned: ./agentic/issue-and-pr-automation.md)
 - Integration Tests — See Developer Documentation (page pending)
 - Subagents — Coming soon (planned: ./agentic/subagents.md)
-- Telemetry (./agentic/telemetry.md)
+- Telemetry (Coming soon) <!-- TODO: Create ./agentic/telemetry.md -->
 - Troubleshooting (./user/troubleshooting.md)
 - Plugin Development (./developer/plugin-development.md)
 - Sandbox Environment — Coming soon (planned: ./agentic/sandbox.md)
