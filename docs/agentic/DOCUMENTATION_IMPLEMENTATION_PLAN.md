@@ -117,20 +117,20 @@ Agentic-code is a sophisticated command-line interface for AI-assisted software 
 ## Documentation Structure
 
 ### [Core Project Documentation](./agentic/)
-- [Constitution](./agentic/constitution.md) - Project principles and governance
-- [Workflow](./agentic/workflow.md) - Development workflow guidelines
-- [Architecture](./agentic/architecture.md) - System architecture overview
+- Constitution (Coming soon) <!-- TODO: Create ./agentic/constitution.md -->
+- Workflow (Coming soon) <!-- TODO: Create ./agentic/workflow.md -->
+- Architecture (Coming soon) <!-- TODO: Create ./agentic/architecture.md -->
 
 ### [User Documentation](./user/)
-- [Installation](./user/installation.md) - Installation instructions
-- [User Guide](./user/user-guide.md) - Comprehensive user guide
-- [Troubleshooting](./user/troubleshooting.md) - Common issues and solutions
+- Installation (Coming soon) <!-- TODO: Create ./user/installation.md -->
+- User Guide (Coming soon) <!-- TODO: Create ./user/user-guide.md -->
+- Troubleshooting (Coming soon) <!-- TODO: Create ./user/troubleshooting.md -->
 
 ### [Developer Documentation](./developer/)
-- [Contributing](./developer/contributing.md) - How to contribute
-- [Development Guide](./developer/development-guide.md) - Developer setup and guidelines
-- [API Reference](./developer/api-reference.md) - API documentation
-- [Plugin Development](./developer/plugin-development.md) - Creating plugins
+- Contributing (Coming soon) <!-- TODO: Create ./developer/contributing.md -->
+- Development Guide (Coming soon) <!-- TODO: Create ./developer/development-guide.md -->
+- API Reference (Coming soon) <!-- TODO: Create ./developer/api-reference.md -->
+- Plugin Development (Coming soon) <!-- TODO: Create ./developer/plugin-development.md -->
 
 ### [Examples](./examples/)
 - [Basic Usage](./examples/basic-usage/) - Simple usage examples
@@ -140,13 +140,13 @@ Agentic-code is a sophisticated command-line interface for AI-assisted software 
 
 ## Quick Start
 
-1. [Install Agentic-code](./user/installation.md)
-2. [Configure your provider](./user/user-guide.md#provider-setup)
-3. [Start using Agentic-code](./user/user-guide.md#getting-started)
+1. Install Agentic-code (Coming soon) <!-- TODO: Create ./user/installation.md -->
+2. Configure your provider (Coming soon) <!-- TODO: Create ./user/user-guide.md -->
+3. Start using Agentic-code (Coming soon) <!-- TODO: Create ./user/user-guide.md -->
 
 ## Getting Help
 
-- [Troubleshooting Guide](./user/troubleshooting.md) - Common issues and solutions
+- Troubleshooting Guide (Coming soon) <!-- TODO: Create ./user/troubleshooting.md -->
 - [GitHub Issues](https://github.com/YOUR_USERNAME/agentic-code/issues) - Report bugs and request features
 - [GitHub Discussions](https://github.com/YOUR_USERNAME/agentic-code/discussions) - Community discussions
 ```
@@ -161,9 +161,9 @@ This section contains the core documentation for the Agentic-code project, inclu
 
 ## Documents
 
-- [Constitution](./constitution.md) - The principles and governance of Agentic-code
-- [Workflow](./workflow.md) - Development workflow and coding standards
-- [Architecture](./architecture.md) - System architecture and design principles
+- Constitution (Coming soon) <!-- TODO: Create ./constitution.md -->
+- Workflow (Coming soon) <!-- TODO: Create ./workflow.md -->
+- Architecture (Coming soon) <!-- TODO: Create ./architecture.md -->
 ```
 
 **Create `docs/user/README.md`**:
@@ -174,9 +174,9 @@ This section contains documentation for end users of Agentic-code, including ins
 
 ## Documents
 
-- [Installation](./installation.md) - How to install Agentic-code
-- [User Guide](./user-guide.md) - Comprehensive guide to using Agentic-code
-- [Troubleshooting](./troubleshooting.md) - Common issues and solutions
+- Installation (Coming soon) <!-- TODO: Create ./installation.md -->
+- User Guide (Coming soon) <!-- TODO: Create ./user-guide.md -->
+- Troubleshooting (Coming soon) <!-- TODO: Create ./troubleshooting.md -->
 ```
 
 **Create `docs/developer/README.md`**:
@@ -187,10 +187,10 @@ This section contains documentation for developers who want to contribute to Age
 
 ## Documents
 
-- [Contributing](./contributing.md) - How to contribute to the project
-- [Development Guide](./development-guide.md) - Developer setup and guidelines
-- [API Reference](./api-reference.md) - API documentation
-- [Plugin Development](./plugin-development.md) - Creating plugins and extensions
+- Contributing (Coming soon) <!-- TODO: Create ./contributing.md -->
+- Development Guide (Coming soon) <!-- TODO: Create ./development-guide.md -->
+- API Reference (Coming soon) <!-- TODO: Create ./api-reference.md -->
+- Plugin Development (Coming soon) <!-- TODO: Create ./plugin-development.md -->
 ```
 
 #### 2.3 Navigation and Cross-References
@@ -216,9 +216,9 @@ This section contains documentation for developers who want to contribute to Age
 
 ## Related Documentation
 
-- [Installation Guide](../user/installation.md)
-- [Developer Guide](../developer/development-guide.md)
-- [API Reference](../developer/api-reference.md)
+- Installation Guide (Coming soon) <!-- TODO: Create ../user/installation.md -->
+- Developer Guide (Coming soon) <!-- TODO: Create ../developer/development-guide.md -->
+- API Reference (Coming soon) <!-- TODO: Create ../developer/api-reference.md -->
 ```
 
 ### Phase 3: Documentation Generation and Automation
@@ -438,10 +438,10 @@ This section provides simple examples to help you get started with Agentic-code.
 
 ## Examples
 
-- [Hello World](./hello-world.md) - Your first interaction with Agentic-code
-- [Code Generation](./code-generation.md) - Generating code with Agentic-code
-- [File Operations](./file-operations.md) - Working with files using Agentic-code
-- [Shell Commands](./shell-commands.md) - Executing shell commands with Agentic-code
+- Hello World (Coming soon) <!-- TODO: Create ./hello-world.md -->
+- Code Generation (Coming soon) <!-- TODO: Create ./code-generation.md -->
+- File Operations (Coming soon) <!-- TODO: Create ./file-operations.md -->
+- Shell Commands (Coming soon) <!-- TODO: Create ./shell-commands.md -->
 ```
 
 **Create `docs/examples/basic-usage/hello-world.md`**:
@@ -472,9 +472,9 @@ Hello! I'm Agentic-code, an AI-powered assistant for software development. I can
 
 ## Next Steps
 
-- Try the [Code Generation](./code-generation.md) example
-- Learn about [File Operations](./file-operations.md)
-- Explore [Shell Commands](./shell-commands.md)
+- Try the Code Generation example (Coming soon) <!-- TODO: Create ./code-generation.md -->
+- Learn about File Operations (Coming soon) <!-- TODO: Create ./file-operations.md -->
+- Explore Shell Commands (Coming soon) <!-- TODO: Create ./shell-commands.md -->
 ```
 
 #### 4.2 Tool Development Examples
@@ -487,9 +487,9 @@ This section provides examples of creating custom tools for Agentic-code.
 
 ## Examples
 
-- [Simple File Tool](./simple-file-tool.md) - A basic tool for file operations
-- [Web Search Tool](./web-search-tool.md) - A tool for searching the web
-- [Database Tool](./database-tool.md) - A tool for database operations
+- Simple File Tool (Coming soon) <!-- TODO: Create ./simple-file-tool.md -->
+- Web Search Tool (Coming soon) <!-- TODO: Create ./web-search-tool.md -->
+- Database Tool (Coming soon) <!-- TODO: Create ./database-tool.md -->
 ```
 
 #### 4.3 Provider Development Examples
@@ -502,9 +502,9 @@ This section provides examples of creating custom providers for Agentic-code.
 
 ## Examples
 
-- [OpenAI Provider](./openai-provider.md) - A provider for OpenAI-compatible APIs
-- [Local Model Provider](./local-model-provider.md) - A provider for local models
-- [Custom API Provider](./custom-api-provider.md) - A provider for custom APIs
+- OpenAI Provider (Coming soon) <!-- TODO: Create ./openai-provider.md -->
+- Local Model Provider (Coming soon) <!-- TODO: Create ./local-model-provider.md -->
+- Custom API Provider (Coming soon) <!-- TODO: Create ./custom-api-provider.md -->
 ```
 
 ### Phase 5: Documentation Maintenance
