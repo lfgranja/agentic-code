@@ -186,7 +186,7 @@ This script provides an efficient way to create all the necessary GitHub issues 
 - [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
 - [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
 - [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
-- [Architecture](../agentic/architecture.md) - Detailed architecture documentation
+- [Architecture](../architecture.md) - Detailed architecture documentation
 - [Vision](../agentic/vision.md) - Long-term vision and goals for Agentic Code
 
 ## Need Help?
