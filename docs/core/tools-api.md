@@ -73,3 +73,12 @@ While direct programmatic registration of new tools by users isn't explicitly de
 - **MCP Server(s):** For more complex scenarios, one or more MCP servers can be set up and configured via the `mcpServers` setting in `settings.json`. The core can then discover and use tools exposed by these servers. As mentioned, if you have multiple MCP servers, the tool names will be prefixed with the server name from your configuration (e.g., `serverAlias__actualToolName`).
 
 This tool system provides a flexible and powerful way to augment the model's capabilities, making Qwen Code a versatile assistant for a wide range of tasks.
+
+## Related Documentation
+
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Examples Directory](../examples/README.md) - Practical examples and templates
+- [Tool Development Examples](../examples/tool-development/README.md) - Examples for creating custom tools
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation

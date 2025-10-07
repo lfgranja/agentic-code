@@ -14,9 +14,12 @@ This directory will contain various examples demonstrating provider development 
 
 To develop providers for Agentic Code, you should understand the provider architecture and how providers integrate with the system. Review the [Development Guide](../../developer/development-guide.md) in the developer documentation for foundational knowledge.
 
-## Next Steps
+## Related Documentation
 
 - For more examples, see the [Examples Directory](../README.md)
 - For core concepts and architecture, see the [Agentic Documentation](../../agentic/README.md)
 - For development guidelines, see the [Developer Documentation](../../developer/README.md)
 - For more information about development practices, see the [Development Guide](../../developer/development-guide.md)
+- [Plugin Development Guide](../../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [API Reference](../../developer/api-reference.md) - Detailed API documentation
+- [Architecture](../../agentic/architecture.md) - Detailed architecture documentation

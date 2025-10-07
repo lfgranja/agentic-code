@@ -668,3 +668,15 @@ Note: When usage statistics are enabled, events are sent to an Alibaba Cloud RUM
   - **Requires Restart:** No
   - **Example:** `"enableWelcomeBack": false`
   - **Details:** When enabled, Qwen Code will automatically detect if you're returning to a project with a previously generated project summary (`.qwen/PROJECT_SUMMARY.md`) and show a dialog allowing you to continue your previous conversation or start fresh. This feature integrates with the `/chat summary` command and quit confirmation dialog. See the [Welcome Back documentation](./welcome-back.md) for more details.
+
+## Related Documentation
+
+- [CLI Commands](./commands.md) - List and explanation of all available CLI commands
+- [CLI Authentication](./authentication.md) - How to set up and manage authentication with various providers
+- [CLI Index](./index.md) - Central index for CLI documentation
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Core Tools API](../core/tools-api.md) - Information on how tools are defined, registered, and used by the core

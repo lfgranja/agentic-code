@@ -57,3 +57,12 @@ Finally, you can exclude files and directories from exclusion with `!`:
 ```
 
 To remove paths from your `.qwenignore` file, delete the relevant lines.
+
+## Related Documentation
+
+- [CLI Configuration](./cli/configuration.md) - Guide to configuring the CLI for different use cases
+- [Tools Documentation](./tools/README.md) - Overview of available tools in Qwen Code
+- [Multi-File Tool](./tools/multi-file.md) - Documentation for the multi-file reading tool
+- [User Guide](./user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](./user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](./user/troubleshooting.md) - Solutions to common issues and problems

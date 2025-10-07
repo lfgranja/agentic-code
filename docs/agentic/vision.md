@@ -119,6 +119,16 @@ The Agentic-code project represents a significant evolution in AI-assisted devel
 
 The development will proceed with careful attention to maintaining backward compatibility while adding new features that enhance code quality, developer productivity, and team collaboration.
 
+*This architecture ensures that Agentic-code will not only be a powerful AI assistant but also a guardian of code quality and consistency throughout the development process.*
+
+## Related Documentation
+
+- [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Architecture](./architecture.md) - Detailed architecture documentation
+- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
+- [Developer Guide](../developer/development-guide.md) - Guide for developers contributing to the project
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+
 ## 9. Technical Architecture Overview
 
 ### Core Components

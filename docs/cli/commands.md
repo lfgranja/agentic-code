@@ -483,3 +483,14 @@ The `!` prefix lets you interact with your system's shell directly from within Q
 - **Caution for all `!` usage:** Commands you execute in shell mode have the same permissions and impact as if you ran them directly in your terminal.
 
 - **Environment Variable:** When a command is executed via `!` or in shell mode, the `QWEN_CODE=1` environment variable is set in the subprocess's environment. This allows scripts or tools to detect if they are being run from within the CLI.
+
+## Related Documentation
+
+- [CLI Configuration](./configuration.md) - Guide to configuring the CLI for different use cases
+- [CLI Authentication](./authentication.md) - How to set up and manage authentication with various providers
+- [CLI Index](./index.md) - Central index for CLI documentation
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation

@@ -213,3 +213,11 @@ Enable debug mode to see detailed logging of the import process:
 ```typescript
 const result = await processImports(content, basePath, true);
 ```
+
+## Related Documentation
+
+- [Core Index](./index.md) - Central index for core documentation
+- [Tools API](./tools-api.md) - Information on how tools are defined, registered, and used by the core
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation

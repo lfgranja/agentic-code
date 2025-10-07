@@ -455,4 +455,22 @@ If all else fails, try a clean installation:
 
 3. Reinstall following the installation instructions
 
-This installation guide provides comprehensive instructions for setting up Agentic-code on various platforms. For more specific information, refer to the [User Guide](./user-guide.md) or [API Documentation](../developer/api-reference.md).
+## Additional Resources
+
+This installation guide provides comprehensive instructions for setting up Agentic-code on various platforms. For more specific information, refer to:
+
+- [User Guide](./user-guide.md) - Comprehensive guide on using Agentic Code for various tasks
+- [API Documentation](../developer/api-reference.md) - Detailed API documentation
+- [Troubleshooting Guide](./troubleshooting.md) - Solutions to common issues and problems
+- [Developer Documentation](../developer/README.md) - For development guidelines and extending the system
+- [Configuration Guide](../cli/configuration.md) - Detailed configuration information
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+
+## Next Steps
+
+After installation, we recommend:
+
+1. Following the [User Guide](./user-guide.md) to understand basic functionality
+2. Reviewing the [Configuration](#configuration) section to set up Agentic Code for your needs
+3. Checking the [Authentication Setup](#authentication-setup) section to configure your AI provider
+4. Exploring the [Troubleshooting](#troubleshooting) section if you encounter issues

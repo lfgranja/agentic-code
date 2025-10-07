@@ -22,8 +22,13 @@ Agentic Code provides a powerful command-line interface for interacting with the
 
 New CLI users should start with the [Commands](./commands.md) documentation to understand the basic functionality, followed by [Configuration](./configuration.md) to set up the CLI for their specific needs.
 
-## Next Steps
+## Related Documentation
 
 - For core concepts and architecture, see the [Agentic Documentation](../agentic/README.md)
 - For end-user documentation, see the [User Documentation](../user/README.md)
 - For development guidelines, see the [Developer Documentation](../developer/README.md)
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation

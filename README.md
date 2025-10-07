@@ -420,12 +420,14 @@ Significant improvements have been made to the documentation structure and conte
 - [x] **Issue #2**: Rename and move documentation files to new structure
 - [x] **Issue #3**: Create README files for documentation directories
 - [x] **Issue #4**: Update internal links and references to reflect new file locations
-- [x] **Issue #5**: Add navigation menus to documentation files (in progress)
+- [x] **Issue #5**: Add navigation menus to documentation files
+- [x] **Issue #6**: Add cross-references between related documents
 
 ### Upcoming Tasks
-- [ ] **Issue #6**: Add cross-references between related documents
 - [ ] **Issue #7**: Create consistent footer with links to other documentation
-- [ ] Continue with additional documentation enhancement issues
+- [ ] **Issue #8**: Set up automated API documentation generation from TypeScript code
+- [ ] **Issue #9**: Create scripts for generating documentation metrics
+- [ ] **Issue #10**: Implement automated documentation testing
 
 For full details on the documentation improvement project, see [CHECKLIST.md](./CHECKLIST.md) and [docs/agentic/GITHUB_ISSUES.md](./docs/agentic/GITHUB_ISSUES.md).
 

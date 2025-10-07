@@ -196,16 +196,16 @@ Update all internal links and references in documentation files to reflect the n
 Add consistent navigation menus to all documentation files to improve user experience.
 
 ## Tasks
-- [ ] Add navigation menu to `docs/agentic/constitution.md`
-- [ ] Add navigation menu to `docs/agentic/workflow.md`
-- [ ] Add navigation menu to `docs/agentic/architecture.md`
-- [ ] Add navigation menu to `docs/user/user-guide.md`
-- [ ] Add navigation menu to `docs/user/installation.md`
-- [ ] Add navigation menu to `docs/user/troubleshooting.md`
-- [ ] Add navigation menu to `docs/developer/development-guide.md`
-- [ ] Add navigation menu to `docs/developer/api-reference.md`
-- [ ] Add navigation menu to `docs/developer/plugin-development.md`
-- [ ] Add navigation menu to `docs/developer/contributing.md`
+- [x] Add navigation menu to `docs/agentic/constitution.md`
+- [x] Add navigation menu to `docs/agentic/workflow.md`
+- [x] Add navigation menu to `docs/agentic/architecture.md`
+- [x] Add navigation menu to `docs/user/user-guide.md`
+- [x] Add navigation menu to `docs/user/installation.md`
+- [x] Add navigation menu to `docs/user/troubleshooting.md`
+- [x] Add navigation menu to `docs/developer/development-guide.md`
+- [x] Add navigation menu to `docs/developer/api-reference.md`
+- [x] Add navigation menu to `docs/developer/plugin-development.md`
+- [x] Add navigation menu to `docs/developer/contributing.md`
 
 ## Acceptance Criteria
 - All documentation files have consistent navigation menus
@@ -236,17 +236,17 @@ Add consistent navigation menus to all documentation files to improve user exper
 Add cross-references between related documents to help users find relevant information.
 
 ## Tasks
-- [ ] Add cross-references in user documentation to developer documentation
-- [ ] Add cross-references in developer documentation to user documentation
-- [ ] Add cross-references between core project documents
-- [ ] Add cross-references from API documentation to implementation guides
-- [ ] Add cross-references from guides to relevant examples
+- [x] Add cross-references in user documentation to developer documentation
+- [x] Add cross-references in developer documentation to user documentation
+- [x] Add cross-references between core project documents
+- [x] Add cross-references from API documentation to implementation guides
+- [x] Add cross-references from guides to relevant examples
 
 ## Acceptance Criteria
-- All cross-references are accurate and helpful
-- Cross-references are placed in logical locations within documents
-- Cross-references use descriptive link text
-- No circular references exist
+- [x] All cross-references are accurate and helpful
+- [x] Cross-references are placed in logical locations within documents
+- [x] Cross-references use descriptive link text
+- [x] No circular references exist
 
 ## Dependencies
 - #5 Add navigation menus to documentation files

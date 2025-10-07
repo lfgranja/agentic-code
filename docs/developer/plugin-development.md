@@ -727,3 +727,14 @@ export default class MyPlugin implements Plugin {
 5. **Be stateless or manage state carefully**: Avoid unexpected behavior
 
 This plugin development guide provides comprehensive information for extending Agentic-code with custom functionality. For more specific information, refer to the [API Documentation](api-reference.md) or [Developer Guide](development-guide.md).
+
+## Related Documentation
+
+- [Developer Guide](./development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](./api-reference.md) - Detailed API documentation
+- [Contributing Guide](./contributing.md) - Guidelines for contributing to the project
+- [Examples and Templates](../examples/README.md) - Practical examples and templates for plugin development
+- [Tool Development Examples](../examples/tool-development/README.md) - Examples for creating custom tools
+- [Provider Development Examples](../examples/provider-development/README.md) - Examples for creating custom providers
+- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation

@@ -53,3 +53,11 @@ The memory discovery service is responsible for finding and loading the context 
 This allows you to have global, project-level, and component-level context files, which are all combined to provide the model with the most relevant information.
 
 You can use the [`/memory` command](../cli/commands.md) to `show`, `add`, and `refresh` the content of loaded context files.
+
+## Related Documentation
+
+- [Tools API](./tools-api.md) - Information on how tools are defined, registered, and used by the core
+- [Memory Import Processor](./memport.md) - Documentation for the modular QWEN.md import feature using @file.md syntax
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation

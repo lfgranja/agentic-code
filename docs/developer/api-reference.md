@@ -609,3 +609,13 @@ console.log('Update result:', result);
 ```
 
 This API documentation provides a comprehensive overview of the main APIs available in Agentic-code. For more detailed information about specific APIs, refer to the source code and inline documentation.
+
+## Related Documentation
+
+- [Developer Guide](./development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [Contributing Guide](./contributing.md) - Guidelines for contributing to the project
+- [Plugin Development Guide](./plugin-development.md) - Guide for creating and maintaining plugins
+- [Examples and Templates](../examples/README.md) - Practical examples and templates for using the APIs
+- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation
+- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
