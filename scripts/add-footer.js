@@ -82,21 +82,43 @@ function processFile(filePath) {
 }
 
 // Function to process all files in a directory recursively
+const SKIP_DIR_NAMES = new Set(['node_modules', '.git', '.github', '.vitepress', '.docusaurus', '.next', 'dist', 'build']);
+
+function shouldSkipDir(name) {
+  return SKIP_DIR_NAMES.has(name) || name.startsWith('.');
+}
+
+function hasRelatedSection(content) {
+  return /##\s+related documentation/i.test(content);
+}
+
 function processDirectory(dirPath) {
   try {
-    const items = fs.readdirSync(dirPath);
-    
-    for (const item of items) {
-      const itemPath = path.join(dirPath, item);
-      
-      // Get file stats to check if it's a directory or file
-      const stats = fs.statSync(itemPath);
-      
-      if (stats.isDirectory()) {
-        // Recursively process subdirectories
+    const items = fs.readdirSync(dirPath, { withFileTypes: true });
+    for (const entry of items) {
+      const name = entry.name;
+      const itemPath = path.join(dirPath, name);
+      if (entry.isDirectory()) {
+        if (shouldSkipDir(name)) continue;
         processDirectory(itemPath);
-      } else if (stats.isFile()) {
-        // Process files
+      } else if (entry.isFile()) {
+        // Only process .md files
+        if (path.extname(name).toLowerCase() !== '.md') continue;
+        // Skip very large files (> 2MB) to avoid touching generated assets
+        const stats = fs.statSync(itemPath);
+        if (stats.size > 2 * 1024 * 1024) continue;
+
+        let content;
+        try {
+          content = fs.readFileSync(itemPath, 'utf8');
+        } catch (e) {
+          console.warn(`Skipping unreadable file ${itemPath}: ${e.message}`);
+          continue;
+        }
+        if (hasRelatedSection(content)) {
+          console.log(`Skipping ${itemPath} - already has Related Documentation section`);
+          continue;
+        }
         processFile(itemPath);
       }
     }
