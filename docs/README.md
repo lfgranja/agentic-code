@@ -79,4 +79,4 @@ If you encounter issues, check the [Troubleshooting Guide](./user/troubleshootin
 
 ## License
 
-[LICENSE](./LICENSE) - Apache License 2.0
+[LICENSE](../LICENSE) - Apache License 2.0
