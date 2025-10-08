@@ -27,21 +27,29 @@ try {
   process.exit(1);
 }
 
-// Define documentation directories to process
-const docDirs = [
-  'docs',
-  'docs/agentic',
-  'docs/cli',
-  'docs/core',
-  'docs/developer',
-  'docs/examples',
-  'docs/examples/basic-usage',
-  'docs/examples/tool-development',
-  'docs/examples/provider-development',
-  'docs/examples/plugin-development',
-  'docs/tools',
-  'docs/user'
-];
+// Discover documentation directories dynamically
+const DOCS_ROOT = path.join(projectRoot, 'docs');
+const SKIP_DIRS = new Set(['node_modules', '.git', '.github', '.vitepress', '.docusaurus', '.next', 'dist', 'build']);
+
+function* walkDirs(dir) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (!entry.isDirectory()) continue;
+    if (SKIP_DIRS.has(entry.name) || entry.name.startsWith('.')) continue;
+    const full = path.join(dir, entry.name);
+    yield full;
+    yield* walkDirs(full);
+  }
+}
+
+// Build list of directories to process starting from docs root
+const docDirs = [];
+if (fs.existsSync(DOCS_ROOT)) {
+  docDirs.push(DOCS_ROOT, ...walkDirs(DOCS_ROOT));
+} else {
+  console.error(`Docs root not found at ${DOCS_ROOT}`);
+  process.exit(1);
+}
 
 // Function to process a single file
 function processFile(filePath) {
