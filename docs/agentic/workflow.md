@@ -101,10 +101,26 @@ This document details the workflows and technical procedures that `agentic-code`
 
 *This workflow manual should be consulted before executing any development task to ensure compliance with project standards.*
 
+
 ## Related Documentation
 
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](./README.md) - Fundamental principles and architecture
 - [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
 - [Architecture](./architecture.md) - Detailed architecture documentation
 - [Vision](./vision.md) - Long-term vision and goals for Agentic Code
-- [Developer Guide](../developer/development-guide.md) - Guide for developers contributing to the project
-- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

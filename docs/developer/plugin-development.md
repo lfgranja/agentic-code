@@ -728,13 +728,26 @@ export default class MyPlugin implements Plugin {
 
 This plugin development guide provides comprehensive information for extending Agentic-code with custom functionality. For more specific information, refer to the [API Documentation](api-reference.md) or [Developer Guide](development-guide.md).
 
+
 ## Related Documentation
 
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
 - [Developer Guide](./development-guide.md) - Comprehensive guide for contributing to Agentic Code
 - [API Reference](./api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](./plugin-development.md) - Guide for creating and maintaining plugins
 - [Contributing Guide](./contributing.md) - Guidelines for contributing to the project
-- [Examples and Templates](../examples/README.md) - Practical examples and templates for plugin development
-- [Tool Development Examples](../examples/tool-development/README.md) - Examples for creating custom tools
-- [Provider Development Examples](../examples/provider-development/README.md) - Examples for creating custom providers
 - [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
 - [Architecture](../agentic/architecture.md) - Detailed architecture documentation
+- [Vision](../agentic/vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

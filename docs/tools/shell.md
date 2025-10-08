@@ -191,6 +191,15 @@ To block all shell commands, add the `run_shell_command` wildcard to `excludeToo
 Command-specific restrictions in `excludeTools` for `run_shell_command` are based on simple string matching and can be easily bypassed. This feature is **not a security mechanism** and should not be relied upon to safely execute untrusted code. It is recommended to use `coreTools` to explicitly select commands
 that can be executed.
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -212,4 +221,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

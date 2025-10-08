@@ -22,11 +22,20 @@ If you're new to Agentic Code, we recommend starting with the [Installation Guid
 - For development guidelines, see the [Developer Documentation](../developer/README.md)
 - For CLI-specific documentation, see the [CLI Documentation](../cli/README.md)
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
-- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
-- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
-- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [User Guide](./user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](./installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](./troubleshooting.md) - Solutions to common issues and problems
 - [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
 - [API Reference](../developer/api-reference.md) - Detailed API documentation
 - [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
@@ -39,8 +48,8 @@ If you're new to Agentic Code, we recommend starting with the [Installation Guid
 
 ## Need Help?
 
-If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

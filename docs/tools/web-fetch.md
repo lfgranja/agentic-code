@@ -53,6 +53,15 @@ web_fetch(url="https://github.com/QwenLM/Qwen/blob/main/README.md", prompt="What
 - **Output quality:** The quality of the output will depend on the clarity of the instructions in the prompt.
 - **MCP tools:** If an MCP-provided web fetch tool is available (starting with "mcp\_\_"), prefer using that tool as it may have fewer restrictions.
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -74,4 +83,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

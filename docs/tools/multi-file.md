@@ -68,6 +68,15 @@ read_many_files(paths=["**/*.js"], include=["**/*.test.js", "images/**/*.jpg"], 
 - **Path specificity:** Ensure paths and glob patterns are correctly specified relative to the tool's target directory. For image/PDF files, ensure the patterns are specific enough to include them.
 - **Default excludes:** Be aware of the default exclusion patterns (like `node_modules`, `.git`) and use `useDefaultExcludes=False` if you need to override them, but do so cautiously.
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -89,4 +98,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

@@ -74,11 +74,26 @@ While direct programmatic registration of new tools by users isn't explicitly de
 
 This tool system provides a flexible and powerful way to augment the model's capabilities, making Qwen Code a versatile assistant for a wide range of tasks.
 
+
 ## Related Documentation
 
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
 - [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
-- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
 - [API Reference](../developer/api-reference.md) - Detailed API documentation
-- [Examples Directory](../examples/README.md) - Practical examples and templates
-- [Tool Development Examples](../examples/tool-development/README.md) - Examples for creating custom tools
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
 - [Architecture](../agentic/architecture.md) - Detailed architecture documentation
+- [Vision](../agentic/vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

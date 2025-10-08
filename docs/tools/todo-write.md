@@ -62,6 +62,15 @@ todo_write(todos=[
 - **Progress visibility:** You'll see todo lists updated in real-time as work progresses.
 - **Session isolation:** Each coding session has its own todo list that doesn't interfere with others.
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -83,4 +92,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

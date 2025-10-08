@@ -75,6 +75,15 @@ To switch between authentication methods, use the `/auth` command in the CLI int
 - Never commit API keys to version control
 - The CLI displays API keys in plain text for verification - ensure your terminal is secure
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -96,4 +105,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

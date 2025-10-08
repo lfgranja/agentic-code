@@ -30,6 +30,15 @@ If you're new to Agentic Code, we recommend starting with the [Constitution](./c
 - For implementation guidelines, see [Workflow](./workflow.md)
 - For project vision, see [Vision](./vision.md)
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -39,11 +48,11 @@ If you're new to Agentic Code, we recommend starting with the [Constitution](./c
 - [API Reference](../developer/api-reference.md) - Detailed API documentation
 - [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
 - [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
-- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
-- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
-- [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
-- [Architecture](../agentic/architecture.md) - Detailed architecture documentation
-- [Vision](../agentic/vision.md) - Long-term vision and goals for Agentic Code
+- [Core Concepts](./README.md) - Fundamental principles and architecture
+- [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](./architecture.md) - Detailed architecture documentation
+- [Vision](./vision.md) - Long-term vision and goals for Agentic Code
 
 ## Need Help?
 
@@ -51,4 +60,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

@@ -475,11 +475,20 @@ After installation, we recommend:
 3. Checking the [Authentication Setup](#authentication-setup) section to configure your AI provider
 4. Exploring the [Troubleshooting](#troubleshooting) section if you encounter issues
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
-- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
-- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
-- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [User Guide](./user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](./installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](./troubleshooting.md) - Solutions to common issues and problems
 - [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
 - [API Reference](../developer/api-reference.md) - Detailed API documentation
 - [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
@@ -492,8 +501,8 @@ After installation, we recommend:
 
 ## Need Help?
 
-If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

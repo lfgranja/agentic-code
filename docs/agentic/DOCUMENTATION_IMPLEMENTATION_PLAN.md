@@ -214,227 +214,6 @@ This section contains documentation for developers who want to contribute to Age
 
 ---
 
-## Related Documentation
-
-- Installation Guide (Coming soon) <!-- TODO: Create ../user/installation.md -->
-- Developer Guide (Coming soon) <!-- TODO: Create ../developer/development-guide.md -->
-- API Reference (Coming soon) <!-- TODO: Create ../developer/api-reference.md -->
-```
-
-### Phase 3: Documentation Generation and Automation
-
-#### 3.1 Automated Documentation Generation
-
-**Tasks**:
-1. Set up automated API documentation generation from TypeScript code
-2. Create scripts for generating documentation metrics
-3. Implement automated documentation testing
-4. Set up documentation deployment automation
-
-**Implementation**:
-
-**Create `scripts/generate-docs.js`**:
-```javascript
-#!/usr/bin/env node
-
-const fs = require('fs');
-const path = require('path');
-const { execSync } = require('child_process');
-
-// Generate API documentation from TypeScript code
-function generateAPIDocs() {
-  console.log('Generating API documentation...');
-  
-  try {
-    execSync('npx typedoc --out docs/developer/api-generated packages/core/src', { stdio: 'inherit' });
-    console.log('API documentation generated successfully');
-  } catch (error) {
-    console.error('Error generating API documentation:', error.message);
-  }
-}
-
-// Generate documentation metrics
-function generateDocsMetrics() {
-  console.log('Generating documentation metrics...');
-  
-  const docsDir = path.join(__dirname, '../docs');
-  const metrics = {
-    totalFiles: 0,
-    totalSize: 0,
-    lastUpdated: new Date().toISOString()
-  };
-  
-  function scanDirectory(dir) {
-    const files = fs.readdirSync(dir);
-    
-    for (const file of files) {
-      const filePath = path.join(dir, file);
-      const stat = fs.statSync(filePath);
-      
-      if (stat.isDirectory()) {
-        scanDirectory(filePath);
-      } else if (file.endsWith('.md')) {
-        metrics.totalFiles++;
-        metrics.totalSize += stat.size;
-      }
-    }
-  }
-  
-  scanDirectory(docsDir);
-  
-  fs.writeFileSync(
-    path.join(docsDir, 'metrics.json'),
-    JSON.stringify(metrics, null, 2)
-  );
-  
-  console.log('Documentation metrics generated:', metrics);
-}
-
-// Main execution
-generateAPIDocs();
-generateDocsMetrics();
-```
-
-#### 3.2 Documentation Testing
-
-**Create `scripts/test-docs.js`**:
-```javascript
-#!/usr/bin/env node
-
-const fs = require('fs');
-const path = require('path');
-
-// Test for broken internal links
-function testInternalLinks() {
-  console.log('Testing internal links...');
-  
-  const docsDir = path.join(__dirname, '../docs');
-  const markdownFiles = [];
-  
-  // Find all markdown files
-  function findMarkdownFiles(dir) {
-    const files = fs.readdirSync(dir);
-    
-    for (const file of files) {
-      const filePath = path.join(dir, file);
-      const stat = fs.statSync(filePath);
-      
-      if (stat.isDirectory()) {
-        findMarkdownFiles(filePath);
-      } else if (file.endsWith('.md')) {
-        markdownFiles.push(filePath);
-      }
-    }
-  }
-  
-  findMarkdownFiles(docsDir);
-  
-  // Extract all internal links
-  const internalLinks = new Set();
-  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
-  
-  for (const file of markdownFiles) {
-    const content = fs.readFileSync(file, 'utf8');
-    let match;
-    
-    while ((match = linkRegex.exec(content)) !== null) {
-      const link = match[2];
-      
-      // Check if it's an internal link (doesn't start with http)
-      if (!link.startsWith('http') && !link.startsWith('#')) {
-        internalLinks.add(link);
-      }
-    }
-  }
-  
-  // Check if all internal links point to existing files
-  let brokenLinks = 0;
-  
-  for (const link of internalLinks) {
-    const filePath = path.join(docsDir, link);
-    
-    if (!fs.existsSync(filePath)) {
-      console.error(`Broken link: ${link}`);
-      brokenLinks++;
-    }
-  }
-  
-  if (brokenLinks > 0) {
-    console.error(`Found ${brokenLinks} broken links`);
-    process.exit(1);
-  } else {
-    console.log('All internal links are valid');
-  }
-}
-
-// Test for required documentation sections
-function testRequiredSections() {
-  console.log('Testing required documentation sections...');
-  
-  const requiredSections = {
-    'docs/README.md': ['Overview', 'Documentation Structure'],
-    'docs/agentic/constitution.md': ['Principles', 'Governance'],
-    'docs/user/installation.md': ['Prerequisites', 'Installation Methods'],
-    'docs/developer/development-guide.md': ['Development Setup', 'Project Structure']
-  };
-  
-  let missingSections = 0;
-  
-  for (const [file, sections] of Object.entries(requiredSections)) {
-    if (!fs.existsSync(file)) {
-      console.error(`Missing required file: ${file}`);
-      missingSections++;
-      continue;
-    }
-    
-    const content = fs.readFileSync(file, 'utf8');
-    
-    for (const section of sections) {
-      if (!content.includes(`## ${section}`)) {
-        console.error(`Missing required section "${section}" in ${file}`);
-        missingSections++;
-      }
-    }
-  }
-  
-  if (missingSections > 0) {
-    console.error(`Found ${missingSections} missing sections`);
-    process.exit(1);
-  } else {
-    console.log('All required sections are present');
-  }
-}
-
-// Main execution
-testInternalLinks();
-testRequiredSections();
-console.log('Documentation tests passed');
-```
-
-#### 3.3 Package.json Scripts
-
-**Add to `package.json`**:
-```json
-{
-  "scripts": {
-    "docs:generate": "node scripts/generate-docs.js",
-    "docs:test": "node scripts/test-docs.js",
-    "docs:build": "npm run docs:generate && npm run docs:test",
-    "docs:serve": "http-server docs -p 8080 -o",
-    "docs:deploy": "./scripts/deploy-docs.sh"
-  }
-}
-```
-
-### Phase 4: Examples and Tutorials
-
-#### 4.1 Basic Usage Examples
-
-**Create `docs/examples/basic-usage/README.md`**:
-```markdown
-# Basic Usage Examples
-
-This section provides simple examples to help you get started with Agentic-code.
 
 ## Examples
 
@@ -725,3 +504,26 @@ echo "Documentation deployed successfully!"
 ## Conclusion
 
 This implementation plan provides a comprehensive approach to organizing, integrating, and maintaining the documentation for the Agentic-code project. By following this plan, we can ensure that the documentation remains accurate, up-to-date, and useful for both users and developers.
+
+## Related Documentation
+
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](./README.md) - Fundamental principles and architecture
+- [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](./architecture.md) - Detailed architecture documentation
+- [Vision](./vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

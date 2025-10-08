@@ -42,6 +42,15 @@ web_search(query="latest advancements in AI-powered code generation")
 - **Citations:** Source links are appended as a numbered list.
 - **API key:** Configure `TAVILY_API_KEY` via settings.json, environment variables, .env files, or command line arguments. If not configured, the tool is not registered.
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -63,4 +72,4 @@ If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooti
 
 ## License
 
-[LICENSE](../LICENSE) - Apache License 2.0
+[LICENSE](../../LICENSE) - Apache License 2.0

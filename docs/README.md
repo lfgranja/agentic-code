@@ -58,6 +58,15 @@ For information on contributing to the documentation itself, see the [Contributi
 - Check out the [Examples](./examples/README.md) for practical use cases
 - Refer to the [CLI Documentation](./cli/README.md) for command-line usage
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](./user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
@@ -70,8 +79,8 @@ For information on contributing to the documentation itself, see the [Contributi
 - [Core Concepts](./agentic/README.md) - Fundamental principles and architecture
 - [Constitution](./agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
 - [Workflow](./agentic/workflow.md) - How Agentic Code processes tasks and executes work
-- [Architecture](./architecture.md) - Detailed architecture documentation
-- [Vision](./vision.md) - Long-term vision and goals for Agentic Code
+- [Architecture](./agentic/architecture.md) - Detailed architecture documentation
+- [Vision](./agentic/vision.md) - Long-term vision and goals for Agentic Code
 
 ## Need Help?
 
