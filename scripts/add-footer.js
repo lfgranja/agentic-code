@@ -19,7 +19,13 @@ const projectRoot = path.resolve(__dirname, '..');
 const footerTemplatePath = path.join(projectRoot, 'docs', 'agentic', 'FOOTER_TEMPLATE.md');
 
 // Read the footer template
-const footerTemplate = fs.readFileSync(footerTemplatePath, 'utf8');
+let footerTemplate;
+try {
+  footerTemplate = fs.readFileSync(footerTemplatePath, 'utf8');
+} catch (err) {
+  console.error(`Failed to read footer template at ${footerTemplatePath}: ${err.message}`);
+  process.exit(1);
+}
 
 // Define documentation directories to process
 const docDirs = [
