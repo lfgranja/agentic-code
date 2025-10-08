@@ -109,6 +109,33 @@ The Qwen Code uses specific exit codes to indicate the reason for termination. T
 If you encounter an issue that was not covered here in this _Troubleshooting guide_, consider searching the Qwen Code [Issue tracker on GitHub](https://github.com/QwenLM/qwen-code/issues). If you can't find an issue similar to yours, consider creating a new GitHub Issue with a detailed description. Pull requests are also welcome!
 
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](./user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks

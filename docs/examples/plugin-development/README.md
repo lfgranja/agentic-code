@@ -15,6 +15,33 @@ This directory will contain various examples demonstrating plugin development te
 To develop plugins for Agentic Code, start by reviewing the [Plugin Development](../../developer/plugin-development.md) guide in the developer documentation. This will provide you with the fundamental knowledge needed to create plugins.
 
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks

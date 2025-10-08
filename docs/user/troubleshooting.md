@@ -719,6 +719,33 @@ When reporting issues, include:
 This troubleshooting guide provides solutions for common issues encountered when using Agentic-code. For more specific information, refer to the [User Guide](./user-guide.md) or [API Documentation](../developer/api-reference.md).
 
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](./user-guide.md) - Comprehensive guide to using Agentic Code for various tasks

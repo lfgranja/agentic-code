@@ -505,6 +505,33 @@ echo "Documentation deployed successfully!"
 
 This implementation plan provides a comprehensive approach to organizing, integrating, and maintaining the documentation for the Agentic-code project. By following this plan, we can ensure that the documentation remains accurate, up-to-date, and useful for both users and developers.
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks

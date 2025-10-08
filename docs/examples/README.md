@@ -18,6 +18,33 @@ The examples directory is organized by categories to help users understand diffe
 New users should start with the [Basic Usage](./basic-usage/README.md) examples to understand how to effectively interact with Agentic Code. Developers looking to extend the system should explore the development-focused examples in their respective areas.
 
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks

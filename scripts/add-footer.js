@@ -38,7 +38,7 @@ function computeRelativePath(fromFile, toFile) {
 
 // Function to generate footer content for a specific file
 function generateFooterContent(filePath) {
-  // Compute relative paths for each documentation file
+  // Compute paths for each documentation file
   const userGuidePath = path.join(docsRoot, 'user', 'user-guide.md');
   const installationGuidePath = path.join(docsRoot, 'user', 'installation.md');
   const troubleshootingGuidePath = path.join(docsRoot, 'user', 'troubleshooting.md');
@@ -100,19 +100,19 @@ function processFile(filePath) {
     return;
   }
 
-  try {
-    // Skip very large files (> 2MB) to avoid touching generated assets
-    const stats = fs.statSync(filePath);
-    if (stats.size > 2 * 1024 * 1024) {
-      console.log(`Skipping ${filePath} - file is too large (${stats.size} bytes)`);
-      return;
-    }
+  // Skip very large files (> 2MB) to avoid touching generated assets
+  const stats = fs.statSync(filePath);
+  if (stats.size > 2 * 1024 * 1024) {
+    console.log(`Skipping ${filePath} - file is too large (${stats.size} bytes)`);
+    return;
+  }
 
+  try {
     // Read the file content
     let content = fs.readFileSync(filePath, 'utf8');
 
     // Check if the file already has a "Related Documentation" section
-    const hasFooter = content.includes('## Related Documentation');
+    const hasFooter = /##\s+Related Documentation/i.test(content);
     
     // If not forcing and already has footer, skip
     if (!force && hasFooter) {
@@ -120,26 +120,13 @@ function processFile(filePath) {
       return;
     }
     
-    // If forcing, remove existing footer first
+    // If forcing, remove ALL existing footer sections first
     if (force && hasFooter) {
-      // Find the start of the footer section
-      const footerStartIndex = content.indexOf('## Related Documentation');
-      if (footerStartIndex !== -1) {
-        // Find the end of the footer (look for next ## header or end of file)
-        const nextHeaderIndex = content.indexOf('\n## ', footerStartIndex + 1);
-        if (nextHeaderIndex !== -1) {
-          // Remove from footer start to next header
-          content = content.substring(0, footerStartIndex) + content.substring(nextHeaderIndex);
-        } else {
-          // Remove from footer start to end of file
-          content = content.substring(0, footerStartIndex);
-        }
-        
-        // Ensure we end with a newline
-        if (!content.endsWith('\n')) {
-          content += '\n';
-        }
-      }
+      // Remove everything from "## Related Documentation" onwards
+      content = content.replace(/##\s+Related Documentation[\s\S]*$/i, '');
+      
+      // Trim trailing whitespace
+      content = content.trimEnd() + '\n';
     }
 
     // Generate footer content specific to this file's location

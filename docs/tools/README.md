@@ -23,6 +23,33 @@ Agentic Code provides a variety of tools that can be used to perform different t
 Users new to Agentic Code tools should start with the [Index](./index.md) to understand the available tools and their purposes. The [File System](./file-system.md) and [Shell](./shell.md) tools are fundamental and frequently used, so they're good starting points for understanding tool operations.
 
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks

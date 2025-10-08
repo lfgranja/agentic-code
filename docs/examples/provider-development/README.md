@@ -15,6 +15,33 @@ This directory will contain various examples demonstrating provider development 
 To develop providers for Agentic Code, you should understand the provider architecture and how providers integrate with the system. Review the [Development Guide](../../developer/development-guide.md) in the developer documentation for foundational knowledge.
 
 
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
 - [User Guide](../../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
