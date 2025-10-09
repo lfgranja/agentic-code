@@ -19,7 +19,6 @@ To develop plugins for Agentic Code, start by reviewing the [Plugin Development]
 ## Need Help?
 
 If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
-
 If you encounter issues, check the [Troubleshooting Guide](../../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
 
 ## License
