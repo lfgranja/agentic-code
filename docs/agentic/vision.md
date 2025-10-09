@@ -121,13 +121,6 @@ The development will proceed with careful attention to maintaining backward comp
 
 *This architecture ensures that Agentic-code will not only be a powerful AI assistant but also a guardian of code quality and consistency throughout the development process.*
 
-## Related Documentation
-
-- [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
-- [Architecture](./architecture.md) - Detailed architecture documentation
-- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
-- [Developer Guide](../developer/development-guide.md) - Guide for developers contributing to the project
-- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
 
 ## 9. Technical Architecture Overview
 
@@ -145,3 +138,53 @@ The development will proceed with careful attention to maintaining backward comp
 - **Developer Experience**: Rich, interactive terminal experience with IDE integration
 
 This architecture ensures that Agentic-code will not only be a powerful AI assistant but also a guardian of code quality and consistency throughout the development process.
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+## Related Documentation
+
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](./README.md) - Fundamental principles and architecture
+- [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](./architecture.md) - Detailed architecture documentation
+- [Vision](./vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

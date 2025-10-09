@@ -669,14 +669,53 @@ Note: When usage statistics are enabled, events are sent to an Alibaba Cloud RUM
   - **Example:** `"enableWelcomeBack": false`
   - **Details:** When enabled, Qwen Code will automatically detect if you're returning to a project with a previously generated project summary (`.qwen/PROJECT_SUMMARY.md`) and show a dialog allowing you to continue your previous conversation or start fresh. This feature integrates with the `/chat summary` command and quit confirmation dialog. See the [Welcome Back documentation](./welcome-back.md) for more details.
 
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
-- [CLI Commands](./commands.md) - List and explanation of all available CLI commands
-- [CLI Authentication](./authentication.md) - How to set up and manage authentication with various providers
-- [CLI Index](./index.md) - Central index for CLI documentation
 - [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
 - [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
 - [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
 - [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
 - [API Reference](../developer/api-reference.md) - Detailed API documentation
-- [Core Tools API](../core/tools-api.md) - Information on how tools are defined, registered, and used by the core
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation
+- [Vision](../agentic/vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

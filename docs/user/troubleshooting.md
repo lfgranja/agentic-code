@@ -718,10 +718,53 @@ When reporting issues, include:
 
 This troubleshooting guide provides solutions for common issues encountered when using Agentic-code. For more specific information, refer to the [User Guide](./user-guide.md) or [API Documentation](../developer/api-reference.md).
 
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
 ## Related Documentation
 
-- [Installation Guide](./installation.md) - Complete installation instructions and setup
-- [User Guide](./user-guide.md) - Comprehensive guide to using Agentic Code
-- [Developer Documentation](../developer/README.md) - For development guidelines and extending the system
-- [Configuration Guide](../cli/configuration.md) - Detailed configuration information
+- [User Guide](./user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](./installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](./troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
 - [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](../agentic/README.md) - Fundamental principles and architecture
+- [Constitution](../agentic/constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](../agentic/workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](../agentic/architecture.md) - Detailed architecture documentation
+- [Vision](../agentic/vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](./troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0

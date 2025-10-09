@@ -271,10 +271,10 @@ Add cross-references between related documents to help users find relevant infor
 Create a consistent footer for all documentation files with links to other documentation.
 
 ## Tasks
-- [ ] Design consistent footer template
-- [ ] Add footer to all documentation files
-- [ ] Include links to main documentation sections in footer
-- [ ] Include links to getting help in footer
+- [x] Design consistent footer template
+- [x] Add footer to all documentation files
+- [x] Include links to main documentation sections in footer
+- [x] Include links to getting help in footer
 
 ## Acceptance Criteria
 - All documentation files have consistent footers
@@ -804,3 +804,62 @@ Finalize the documentation structure and perform a comprehensive quality review.
 - **Week 3**: 17 hours (Phase 3)
 - **Week 4**: 30 hours (Phase 4)
 - **Week 5**: 19 hours (Phase 5)
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
+
+## Related Documentation
+
+- [User Guide](../user/user-guide.md) - Comprehensive guide to using Agentic Code for various tasks
+- [Installation Guide](../user/installation.md) - Step-by-step instructions for installing Agentic Code
+- [Troubleshooting Guide](../user/troubleshooting.md) - Solutions to common issues and problems
+- [Developer Guide](../developer/development-guide.md) - Comprehensive guide for contributing to Agentic Code
+- [API Reference](../developer/api-reference.md) - Detailed API documentation
+- [Plugin Development Guide](../developer/plugin-development.md) - Guide for creating and maintaining plugins
+- [Contributing Guide](../developer/contributing.md) - Guidelines for contributing to the project
+- [Core Concepts](./README.md) - Fundamental principles and architecture
+- [Constitution](./constitution.md) - Core principles and values that guide Agentic Code behavior
+- [Workflow](./workflow.md) - How Agentic Code processes tasks and executes work
+- [Architecture](./architecture.md) - Detailed architecture documentation
+- [Vision](./vision.md) - Long-term vision and goals for Agentic Code
+
+## Need Help?
+
+If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
+
+## License
+
+[LICENSE](../../LICENSE) - Apache License 2.0
