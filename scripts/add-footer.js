@@ -122,11 +122,14 @@ function processFile(filePath) {
     
     // If forcing, remove ALL existing footer sections first
     if (force && hasFooter) {
-      // Remove everything from "## Related Documentation" onwards
-      content = content.replace(/##\s+Related Documentation[\s\S]*$/i, '');
-      
-      // Trim trailing whitespace
-      content = content.trimEnd() + '\n';
+      // Remove everything from the first "## Related Documentation" onwards
+      const relatedDocIndex = content.search(/##\s+Related Documentation/i);
+      if (relatedDocIndex !== -1) {
+        content = content.substring(0, relatedDocIndex);
+        
+        // Ensure we end with a newline
+        content = content.trimEnd() + '\n';
+      }
     }
 
     // Generate footer content specific to this file's location
