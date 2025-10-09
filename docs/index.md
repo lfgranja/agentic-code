@@ -44,33 +44,6 @@ We hope this documentation helps you make the most of Qwen Code!
 
 ## Need Help?
 
-If you encounter issues, check the [Troubleshooting Guide](../user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
-
-## License
-
-[LICENSE](../LICENSE) - Apache License 2.0
-
-
-## Need Help?
-
-If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
-
-## License
-
-[LICENSE](../LICENSE) - Apache License 2.0
-
-
-## Need Help?
-
-If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
-
-## License
-
-[LICENSE](../LICENSE) - Apache License 2.0
-
-
-## Need Help?
-
 If you encounter issues, check the [Troubleshooting Guide](./user/troubleshooting.md) or [create an issue](https://github.com/lfgranja/agentic-code/issues) on GitHub.
 
 ## License
