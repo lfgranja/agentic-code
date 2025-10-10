@@ -61,7 +61,7 @@ export class AgenticGuidelinesVerifier {
     const singleLetterVars = code.match(/\b(?:var|let|const)\s+([a-z])\s*=/g) || [];
     
     // Look for common loop variables (i, j, k) and allow them
-    const loopVariables = code.match(/\b(?:for\s*\(\s*(?:let|var|const)\s+)?[ijk]\s*=/g) || [];
+    const loopVariables = code.match(/\bfor\s*\(\s*(?:let|var|const)\s+[ijk]\s*=/g) || [];
     
     if (allNames.length === 0) return 1; // No names to check, so no issues
     
@@ -78,11 +78,7 @@ export class AgenticGuidelinesVerifier {
     // Ensure minimum score is 0
     score = Math.max(0, score);
     
-    // For the specific test case with single-letter names like 'x', 'a', 'b'
-    // Check if the code specifically contains very short names like 'x' in the test
-    if (code.includes('x.reduce') || code.includes('a, b') || code.includes('x: number')) {
-      score = Math.min(0.3, score); // Ensure poor naming scores low
-    }
+
     
     return score;
   }
@@ -104,7 +100,7 @@ export class AgenticGuidelinesVerifier {
     const lines = code.split('\n').filter(line => line.trim() !== '').length;
     
     // Count function calls in a complex way that suggests over-engineering
-    const complexPatternCount = (code.match(/\w+\.\w+\(\)\.+\w+\(\)/g) || []).length; // method chaining
+    const complexPatternCount = (code.match(/\w+\.\w+\(\)\.\w+\(\)/g) || []).length; // method chaining
     const nestedCallCount = (code.match(/\w+\(\w+\(\w+\(\)/g) || []).length; // nested calls
     
     // Calculate cyclomatic complexity proxy
@@ -138,7 +134,6 @@ export class AgenticGuidelinesVerifier {
     const hasNoSemicolons = lines.filter(line => 
       line.trim().endsWith('{') || 
       line.trim().endsWith('}') || 
-      line.trim().endsWith('}') || 
       (line.trim() !== '' && !line.trim().endsWith(';') && !line.trim().endsWith('{') && !line.trim().endsWith('}'))
     ).length;
     
@@ -158,7 +153,7 @@ export class AgenticGuidelinesVerifier {
    */
   private checkRobustness(code: string): number {
     // Look for error handling patterns
-    const hasTryCatch = (code.match(/\btry\s*{/g) || []).length > 0;
+    const hasTryCatch = (code.match(/\btry\b[\s\S]*?{/g) || []).length > 0;
     const hasThrow = (code.match(/\bthrow\b/g) || []).length > 0;
     const hasValidation = (code.match(/\bif\b.*(?:null|undefined|error|valid)/g) || []).length > 0;
     
@@ -211,7 +206,7 @@ export class AgenticGuidelinesVerifier {
       issues.push('Potential XSS vulnerability: use of innerHTML property');
     }
     
-    const hasSQLInjectionPatterns = (code.match(/\b(?:SELECT|INSERT|UPDATE|DELETE).*\+.*/g) || []).length > 0;
+    const hasSQLInjectionPatterns = (code.match(/(?:SELECT|INSERT|UPDATE|DELETE)[\s\S]*?\+[\s\S]*/i) || []).length > 0;
     if (hasSQLInjectionPatterns) {
       issues.push('Potential SQL injection vulnerability: concatenated SQL query');
     }
@@ -255,8 +250,9 @@ export class AgenticGuidelinesVerifier {
     // Check for class/function declarations (modularity indicators)
     const classCount = (code.match(/\bclass\s+\w+/g) || []).length;
     const functionCount = (code.match(/\bfunction\s+\w+/g) || []).length;
-    const arrowFunctionCount = (code.match(/\w+\s*:\s*\([^)]*\)\s*=>/g) || []).length +
-                              (code.match(/\([^)]*\)\s*=>/g) || []).length;
+    const arrowFunctionCount = 
+      (code.match(/\w+\s*:\s*\([^)]*\)\s*=>/g) || []).length + // property-typed arrow
+      (code.match(/(?<!\w+\s*:\s*)\([^)]*\)\s*=>/g) || []).length; // standalone arrow only
     
     const totalModularElements = classCount + functionCount + arrowFunctionCount;
     
